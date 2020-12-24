@@ -1,0 +1,74 @@
+.organism-footer {
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    .organism-footer_certificateAttestations, .organism-footer_ourServices, .organism-footer_certificateApostille, .organism-footer_otherLinks, .organism-footer_contact {
+        h3 {
+            font-size: 18px;
+        }
+
+        ul > li > a {
+            font-size: 14px;
+            line-height: 1.3;
+        }
+    }
+
+    .organism-footer_contact .organism-footer_contact_phone {
+        line-height: 1.3;
+        font-size: 15px;
+    }
+
+    .organism-footer_contact {
+        .organism-footer_contact_email, .organism-footer_contact_address {
+            line-height: 1.3;
+            font-size: 15px;
+        }
+    }
+
+    .organism-footer_certifications {
+        img {
+            max-width: 100px;
+        }
+    }
+
+    .organism-footer_copyright {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    &-social {
+        a {
+            width: 30px;
+            height: 30px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .organism-footer {
+        .organism-footer_certifications {
+            img {
+                max-width: 70px;
+            }
+        }
+
+        .organism-footer_contact {
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+
+        .organism-footer_copyright .allRightsReserved {
+            display: block;
+        }
+
+        .headline-marginTop {
+            margin-top: 18px;
+            margin-bottom: 12px;
+        }
+    }
+}

@@ -1,0 +1,288 @@
+.navbar-dropdown-mixin div {
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px lightslategrey;
+  position: absolute;
+  top: 38px;
+  z-index: 99;
+  transition: all 0.2s;
+}
+.navbar-dropdown-mixin div a {
+  display: block;
+}
+.navbar-dropdown-mixin div a:not(:last-child) {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.5);
+}
+.navbar-dropdown-mixin div a:first-child p {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.navbar-dropdown-mixin div a:last-child p {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.navbar-dropdown-mixin div a p {
+  padding: 10px 15px;
+  width: 220px;
+  transition: 0.1s all ease-in-out;
+}
+.navbar-dropdown-mixin div a p:hover {
+  background-color: #d5eefd;
+}
+.stickyNav {
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  left: 0px;
+  position: fixed;
+  transition: 1s all ease-in-out;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: end;
+  z-index: 99;
+}
+.stickyNav div:nth-child(3) {
+  text-align: end;
+}
+.stickyLogoInNav {
+  position: fixed;
+  z-index: 100;
+  top: 10px;
+  background-color: white;
+  padding: 0px 5px;
+  border-radius: 4px;
+}
+.organism-navigation-bar_logo {
+  max-width: 150px;
+  width: 100%;
+  min-width: 50px;
+  height: auto;
+}
+.organism-navigation-bar .contactNumber,
+.organism-navigation-bar .email,
+.organism-navigation-bar .directions {
+  transition: 0.1s all ease-in-out;
+}
+.organism-navigation-bar .contactNumber:hover,
+.organism-navigation-bar .email:hover,
+.organism-navigation-bar .directions:hover {
+  color: #3e403f;
+}
+.organism-navigation-bar .contactNumber {
+  font-size: 16px;
+}
+.organism-navigation-bar .email {
+  font-size: 15px;
+}
+.organism-navigation-bar .email .svg-inline--fa.fa-envelope {
+  top: 1px;
+}
+.organism-navigation-bar .container-fluid > .row:nth-child(2) {
+  background-color: #009BFF;
+  border-radius: 6px;
+}
+.organism-navigation-bar .container-fluid > .row:nth-child(2) ul li,
+.organism-navigation-bar .container-fluid > .row:nth-child(2) ul li a {
+  transition: 0.05s all ease-in-out;
+}
+.organism-navigation-bar .container-fluid > .row:nth-child(2) ul li .svg-inline--fa.fa-chevron-down,
+.organism-navigation-bar .container-fluid > .row:nth-child(2) ul li a .svg-inline--fa.fa-chevron-down {
+  top: 2px;
+  width: 0.575em;
+}
+.organism-navigation-bar .container-fluid > .row:nth-child(2) ul li:hover,
+.organism-navigation-bar .container-fluid > .row:nth-child(2) ul li a:hover {
+  color: black;
+}
+.organism-navigation-bar .attestation div {
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px lightslategrey;
+  position: absolute;
+  top: 38px;
+  z-index: 99;
+  transition: all 0.2s;
+}
+.organism-navigation-bar .attestation div a {
+  display: block;
+}
+.organism-navigation-bar .attestation div a:not(:last-child) {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.5);
+}
+.organism-navigation-bar .attestation div a:first-child p {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.organism-navigation-bar .attestation div a:last-child p {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.organism-navigation-bar .attestation div a p {
+  padding: 10px 15px;
+  width: 220px;
+  transition: 0.1s all ease-in-out;
+}
+.organism-navigation-bar .attestation div a p:hover {
+  background-color: #d5eefd;
+}
+.organism-navigation-bar .attestation div a p {
+  width: 250px;
+}
+.organism-navigation-bar .apostille div {
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px lightslategrey;
+  position: absolute;
+  top: 38px;
+  z-index: 99;
+  transition: all 0.2s;
+}
+.organism-navigation-bar .apostille div a {
+  display: block;
+}
+.organism-navigation-bar .apostille div a:not(:last-child) {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.5);
+}
+.organism-navigation-bar .apostille div a:first-child p {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.organism-navigation-bar .apostille div a:last-child p {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.organism-navigation-bar .apostille div a p {
+  padding: 10px 15px;
+  width: 220px;
+  transition: 0.1s all ease-in-out;
+}
+.organism-navigation-bar .apostille div a p:hover {
+  background-color: #d5eefd;
+}
+.organism-navigation-bar .apostille div p {
+  width: 180px;
+}
+.organism-navigation-bar .visastamping div {
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px lightslategrey;
+  position: absolute;
+  top: 38px;
+  z-index: 99;
+  transition: all 0.2s;
+}
+.organism-navigation-bar .visastamping div a {
+  display: block;
+}
+.organism-navigation-bar .visastamping div a:not(:last-child) {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.5);
+}
+.organism-navigation-bar .visastamping div a:first-child p {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.organism-navigation-bar .visastamping div a:last-child p {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.organism-navigation-bar .visastamping div a p {
+  padding: 10px 15px;
+  width: 220px;
+  transition: 0.1s all ease-in-out;
+}
+.organism-navigation-bar .visastamping div a p:hover {
+  background-color: #d5eefd;
+}
+.organism-navigation-bar .visastamping div p {
+  width: 120px;
+}
+.organism-navigation-bar .otherservices div {
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px lightslategrey;
+  position: absolute;
+  top: 38px;
+  z-index: 99;
+  transition: all 0.2s;
+}
+.organism-navigation-bar .otherservices div a {
+  display: block;
+}
+.organism-navigation-bar .otherservices div a:not(:last-child) {
+  border-bottom: 1px solid rgba(119, 136, 153, 0.5);
+}
+.organism-navigation-bar .otherservices div a:first-child p {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.organism-navigation-bar .otherservices div a:last-child p {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.organism-navigation-bar .otherservices div a p {
+  padding: 10px 15px;
+  width: 220px;
+  transition: 0.1s all ease-in-out;
+}
+.organism-navigation-bar .otherservices div a p:hover {
+  background-color: #d5eefd;
+}
+.organism-navigation-bar .otherservices div p {
+  width: 120px;
+}
+@media only screen and (min-width: 1024px) {
+  .organism-navigation-bar .container-fluid > .row:nth-child(2) {
+    padding: 0px !important;
+  }
+  .organism-navigation-bar ul li {
+    margin-bottom: 0px !important;
+  }
+  .organism-navigation-bar .attestation:hover div,
+  .organism-navigation-bar .apostille:hover div,
+  .organism-navigation-bar .visastamping:hover div,
+  .organism-navigation-bar .otherservices:hover div {
+    display: block;
+  }
+  .organism-navigation-bar .attestation:hover div:hover,
+  .organism-navigation-bar .apostille:hover div:hover,
+  .organism-navigation-bar .visastamping:hover div:hover,
+  .organism-navigation-bar .otherservices:hover div:hover {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .organism-navigation-bar {
+    top: 0px;
+    width: 100%;
+    margin: 0 auto;
+    left: 0px;
+    position: fixed;
+    transition: 1s all ease-in-out;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+    z-index: 99;
+    width: 100vw;
+    z-index: 1;
+    background-color: white;
+  }
+  .organism-navigation-bar div:nth-child(3) {
+    text-align: end;
+  }
+  .organism-navigation-bar .svg-inline--fa.fa-location-arrow {
+    top: 3px;
+  }
+  .organism-navigation-bar > .container-fluid .row:nth-child(2) .listContainer {
+    display: none;
+  }
+  .organism-navigation-bar > .container-fluid .row:nth-child(2) .listContainer ul li {
+    display: block;
+  }
+  .organism-navigation-bar .contactNumber {
+    font-size: 14px;
+  }
+  .organism-navigation-bar .listContainer ul {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

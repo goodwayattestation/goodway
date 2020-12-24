@@ -1,0 +1,25 @@
+{
+    "sidebar": [
+        {
+            "text": "Visa Stamping",
+            "link": "",
+            "headline": true
+        },
+        {
+            "text": "UAE Visa Stamping",
+            "link": "/#/uae-visastamping",
+            "headline": false
+        },
+        {
+            "text": "Saudi Visa Stamping",
+            "link": "/#/saudi-visastamping",
+            "headline": false
+        },
+        {
+            "text": "Kuwait Visa Stamping",
+            "link": "/#/kuwait-visastamping",
+            "headline": false
+        }
+        
+    ]
+}

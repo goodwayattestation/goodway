@@ -1,0 +1,153 @@
+{
+    "certificateAttestations": {
+        "headline": "Certificate Attestation",
+        "options": [
+            {
+                "text": "UAE Embassy Attestation",
+                "link": "/uae-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Qatar Embassy Attestation",
+                "link": "/qatar-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Kuwait Embassy Attestation",
+                "link": "/kuwait-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Saudi Embassy Attestation",
+                "link": "/saudi-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Bahrain Embassy Attestation",
+                "link": "/bahrain-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "China Embassy Attestation",
+                "link": "/china-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Vietnam Embassy Attestation",
+                "link": "/vietnam-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Taiwan Embassy Attestation",
+                "link": "/taiwan-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Egypt Embassy Attestation",
+                "link": "/egypt-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Nigeria Embassy Attestation",
+                "link": "/nigeria-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Malaysia Embassy Attestation",
+                "link": "/malaysia-embassy-attestaion-bangalore"
+            },
+            {
+                "text": "Philippines Embassy Attestation",
+                "link": "/philippines-embassy-attestaion-bangalore"
+            }
+        ]
+    },
+    "ourServices": {
+        "headline": "Our Services",
+        "options": [
+            {
+                "text": "Certificate Attestation",
+                "link": "/certificate-attestation-bangalore"
+            },
+            {
+                "text": "Certificate Apostille",
+                "link": "/certificate-apostille-bangalore"
+            },
+            {
+                "text": "Visa Stamping",
+                "link": "/visa-stamping-service-india"
+            },
+            {
+                "text": "HRD & Home Department",
+                "link": "state-hrd-home-department-attestation"
+            },
+            {
+                "text": "MEA Attestation",
+                "link": "/mea-attestaion-apostille-services"
+            },
+            {
+                "text": "MOFA Attestation",
+                "link": "/mofa-attestaion-services"
+            }
+        ]
+    },
+    "certificateApostille": {
+        "headline": "Certificate Apostille",
+        "options": [
+            {
+                "text": "UK Issued Documents",
+                "link": "/uk-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "USA Issued Documents",
+                "link": "/usa-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Oman",
+                "link": "/oman-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Italy",
+                "link": "/italy-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Germany",
+                "link": "/germany-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Australia",
+                "link": "/australia-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Austria",
+                "link": "/austria-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for France",
+                "link": "/france-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Lithuania",
+                "link": "/lithuania-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Mexico",
+                "link": "/mexico-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "Apostille for Netherlands",
+                "link": "/netherlands-apostille-attestaion-bangalore"
+            }
+        ]
+    },
+    "quickLinks": {
+        "headline": "Quick Links",
+        "options": [
+            {
+                "text": "Home",
+                "link": "/"
+            },
+            {
+                "text": "About Us",
+                "link": "/about-us"
+            },
+            {
+                "text": "Contact Us",
+                "link": "/contact-us"
+            }
+        ]
+    },
+    "contactUs": {
+        "headline": "Contact Us"
+    }
+}

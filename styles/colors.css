@@ -1,0 +1,45 @@
+/****************************************/
+/* Colors                               */
+/****************************************/
+.bg-color-black {
+  background-color: #3e403f;
+}
+.color-black {
+  color: #3e403f;
+}
+.bg-color-white {
+  background-color: #ffffff;
+}
+.color-white {
+  color: #ffffff;
+}
+.bg-color-azure {
+  background-color: #f0ffff;
+}
+.color-azure {
+  color: #f0ffff;
+}
+.bg-color-lightskyblue {
+  background-color: #87cefa;
+}
+.color-lightskyblue {
+  color: #87cefa;
+}
+.bg-color-orangered {
+  background-color: #ff7d4d;
+}
+.color-orangered {
+  color: #ff7d4d;
+}
+.bg-color-teal {
+  background-color: #008080;
+}
+.color-teal {
+  color: #008080;
+}
+.bg-color-dodgerblue {
+  background-color: #009BFF;
+}
+.color-dodgerblue {
+  color: #009BFF;
+}

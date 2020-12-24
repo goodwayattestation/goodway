@@ -1,0 +1,26 @@
+// out: true, compress: false
+/****************************************/
+/* Colors                               */
+/****************************************/
+
+@colors: black #3e403f, white #ffffff, azure #f0ffff, lightskyblue #87cefa,
+    orangered #ff7d4d, teal #008080,  dodgerblue #009BFF;
+
+@colorsAttributes: bg-color background-color, color color;
+.colors(@colors, @i: 1) when (@i <= length(@colors)) {
+    @color: extract(@colors, @i);
+    @key: extract(@color, 1);
+    @value: extract(@color, 2);
+    .colorsAttributes(@colorsAttributes, @j: 1) when (@j <= length(@color)) {
+        @attribute: extract(@colorsAttributes, @j);
+        @prefix: extract(@attribute, 1);
+        @property: extract(@attribute, 2);
+        .@{prefix}-@{key} {
+            @{property}: @value;
+        }
+        .colorsAttributes(@colorsAttributes, @j + 1);
+    }
+    .colorsAttributes(@colorsAttributes);
+    .colors(@colors, @i + 1);
+}
+.colors(@colors);

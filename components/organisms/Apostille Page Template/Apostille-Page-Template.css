@@ -1,0 +1,55 @@
+.organism-apostille-page .organism-apostille-page_headerImage {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: brightness(0.55);
+}
+.organism-apostille-page .organism-apostille-page_headerImage + h2 {
+  position: relative;
+  top: -135px;
+  color: white;
+  height: 0px;
+}
+.organism-apostille-page .container-fluid .children p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3e403f;
+  line-height: 1.7;
+}
+.organism-apostille-page .organism-apostille-page_sidebar {
+  box-shadow: 0px 1px 2px lightslategrey;
+  width: 90%;
+}
+.organism-apostille-page .organism-apostille-page_sidebar tr {
+  border-bottom: 1px solid lightgray;
+}
+.organism-apostille-page .organism-apostille-page_sidebar tr th:first-child {
+  padding: 15px 10px;
+  font-size: 22px;
+}
+.organism-apostille-page .organism-apostille-page_sidebar tr th a,
+.organism-apostille-page .organism-apostille-page_sidebar tr td a {
+  display: block;
+  padding: 15px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.organism-apostille-page .organism-apostille-page_sidebar tr th a.selected,
+.organism-apostille-page .organism-apostille-page_sidebar tr td a.selected {
+  font-weight: bold;
+  pointer-events: none;
+}
+.organism-apostille-page .organism-apostille-page_sidebar tr th a:hover,
+.organism-apostille-page .organism-apostille-page_sidebar tr td a:hover {
+  background-color: #d5eefd;
+}
+@media only screen and (max-width: 1023px) {
+  .organism-apostille-page .organism-apostille-page_headerImage {
+    background-size: cover;
+  }
+  .organism-apostille-page .organism-apostille-page_headerImage + h2 {
+    line-height: 1.3;
+    top: -150px;
+  }
+}

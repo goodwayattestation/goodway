@@ -1,0 +1,3 @@
+Sitemap: https://www.goodwayattestation.com/sitemap/sitemap.xml
+User-agent: *
+Disallow:

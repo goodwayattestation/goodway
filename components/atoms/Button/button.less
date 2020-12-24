@@ -1,0 +1,74 @@
+@colors: 
+  black #3E403F #FFFFFF,
+  white #FFFFFF #3E403F,
+  azure #F0FFFF #3E403F,
+  lightskyblue #87CEFA #3E403F,
+  orangered #ff7d4d #3E403F,
+  teal #008080 #FFFFFF,
+  dodgerblue #009BFF #FFFFFF;
+
+  .atom-button {
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.1s all ease-in-out;
+    display: inline-block;
+
+    &.disabled {
+      pointer-events: none;
+      background-color: lightgray !important;
+    }
+  }
+
+  each(@colors, {
+    @name: extract(@value, 1);
+    @bgcolor: extract(@value, 2);
+    @color: extract(@value, 3);
+    @className: atom-button-small-@name;
+
+    .atom-button-extra-small-@{name} {
+      .atom-button;
+      background-color: @bgcolor;
+      color: @color;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 18px;
+      height: 18px;
+      padding: 2px 5px;
+      text-transform: none;
+  
+      &:hover {
+        background-color: darken(@bgcolor, 11%);  
+      }
+  }
+
+    .atom-button-small-@{name} {
+        .atom-button;
+        background-color: @bgcolor;
+        color: @color;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 25px;
+        height: 25px;
+        padding: 3px 8px;
+    
+        &:hover {
+          background-color: darken(@bgcolor, 11%);  
+        }
+    }
+    
+    .atom-button-large-@{name} {
+        .atom-button;
+        background-color: @bgcolor;
+        color: @color;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 35px;
+        height: 35px;
+        padding: 3px 15px;
+    
+        &:hover {
+          background-color: darken(@bgcolor, 11%);  
+        }
+    }
+  });

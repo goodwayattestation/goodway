@@ -1,0 +1,263 @@
+{
+    "firstRow": {
+        "logo": {
+            "alt": "Goodway attestation",
+            "classes": ["organism-navigation-bar_logo"],
+            "link": "/",
+            "src": "images/logo.png"
+        },
+        "contact": {
+            "numbers": [
+                { "icon": "2", "number": "+91 9148889666" },
+                { "icon": "2", "number": "+91 9148889444" }
+            ],
+            "email": {
+                "icon": "3",
+                "email": "info@goodwayattestation.com"
+            }
+        },
+        "directions": {
+            "icon": "4",
+            "link": "https://www.google.com/maps/dir//Goodway+Attestation+%26+Apostille+Services+in+Bangalore,+near+Reliance+Trends,+Vyalikaval,+Kodandarampura,+Malleshwaram,+Bengaluru,+Karnataka/@13.0019358,77.5716538,17.43z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae17d588d9caef:0x5ba382acaf05e1bd!2m2!1d77.5721514!2d13.0019401?hl=en-US",
+            "text": "Bengaluru"
+        },
+        "trackStatusBtn": {
+            "text": "Track Status",
+            "link": "/track-status"
+        }
+    },
+    "secondRow": {
+        "links": [
+            {
+                "icon": "0",
+                "text": "",
+                "link": "/",
+                "classes": [],
+                "dropdown": [],
+                "mobile": false,
+                "desktop": true,
+                "hideWhenSticky": true
+            },
+            {
+                "icon": "1",
+                "text": "Attestation",
+                "link": "/certificate-attestation-bangalore",
+                "classes": ["attestation", "c:p"],
+                "dropdown": [
+                    {
+                        "text": "UAE Embassy Attestation",
+                        "link": "/uae-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Qatar Embassy Attestation",
+                        "link": "/qatar-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Kuwait Embassy Attestation",
+                        "link": "/kuwait-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Saudi Embassy Attestation",
+                        "link": "/saudi-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Bahrain Embassy Attestation",
+                        "link": "/bahrain-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "China Embassy Attestation",
+                        "link": "/china-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Vietnam Embassy Attestation",
+                        "link": "/vietnam-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Taiwan Embassy Attestation",
+                        "link": "/taiwan-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Egypt Embassy Attestation",
+                        "link": "/egypt-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Nigeria Embassy Attestation",
+                        "link": "/nigeria-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Malaysia Embassy Attestation",
+                        "link": "/malaysia-embassy-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Philippines Embassy Attestation",
+                        "link": "/philippines-embassy-attestaion-bangalore"
+                    }
+                ],
+                "mobile": true,
+                "desktop": true,
+                "hideWhenSticky": false
+            },
+            {
+                "icon": "1",
+                "text": "Apostille",
+                "link": "/certificate-apostille-bangalore",
+                "classes": ["apostille", "c:p"],
+                "dropdown": [
+                    {
+                        "text": "Apostille for Oman",
+                        "link": "/oman-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Italy",
+                        "link": "/italy-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Germany",
+                        "link": "/germany-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Australia",
+                        "link": "/australia-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Austria",
+                        "link": "/austria-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for France",
+                        "link": "/france-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Lithuania",
+                        "link": "/lithuania-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Mexico",
+                        "link": "/mexico-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "Apostille for Netherlands",
+                        "link": "/netherlands-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "UK Issued Documents",
+                        "link": "/uk-apostille-attestaion-bangalore"
+                    },
+                    {
+                        "text": "USA Issued Documents",
+                        "link": "/usa-apostille-attestaion-bangalore"
+                    }
+                ],
+                "mobile": true,
+                "desktop": true,
+                "hideWhenSticky": false
+            },
+            {
+                "icon": "1",
+                "text": "Visa Stamping",
+                "link": "/visa-stamping-service-india",
+                "classes": ["visastamping", "c:p"],
+                "dropdown": [
+                    {
+                        "text": "UAE Visa Stamping",
+                        "link": "/uae-visa-stamping"
+                    },
+                    {
+                        "text": "Saudi Visa Stamping",
+                        "link": "/saudi-visa-stamping"
+                    },
+                    {
+                        "text": "Kuwait Visa Stamping",
+                        "link": "/kuwait-visa-stamping"
+                    }
+                ],
+                "mobile": true,
+                "desktop": true,
+                "hideWhenSticky": false
+            },
+            {
+                "icon": "",
+                "text": "HRD & Home Department",
+                "link": "/state-hrd-home-department-attestation",
+                "classes": [],
+                "dropdown": [],
+                "mobile": true,
+                "desktop": true,
+                "hideWhenSticky": false
+            },
+            {
+                "icon": "1",
+                "text": "Other Services",
+                "link": "/",
+                "classes": ["otherservices"],
+                "dropdown": [
+                    {
+                        "text": "MEA Attestation",
+                        "link": "/mea-attestaion-apostille-services"
+                    },
+                    {
+                        "text": "MOFA Attestation",
+                        "link": "/mofa-attestaion-services"
+                    },
+                    {
+                        "text": "Translation",
+                        "link": "/"
+                    }
+                ],
+                "mobile": false,
+                "desktop": true,
+                "hideWhenSticky": false
+            },
+            {
+                "icon": "",
+                "text": "MEA Attestation",
+                "link": "/mea-attestaion-apostille-services",
+                "classes": [],
+                "dropdown": [],
+                "mobile": true,
+                "desktop": false,
+                "hideWhenSticky": true
+            },
+            {
+                "icon": "",
+                "text": "MOFA Attestation",
+                "link": "/mofa-attestaion-services",
+                "classes": [],
+                "dropdown": [],
+                "mobile": true,
+                "desktop": false,
+                "hideWhenSticky": true
+            },
+            {
+                "icon": "",
+                "text": "Translation",
+                "link": "/",
+                "classes": [],
+                "dropdown": [],
+                "mobile": false,
+                "desktop": false,
+                "hideWhenSticky": true
+            },
+            {
+                "icon": "",
+                "text": "About Us",
+                "link": "/about-us",
+                "classes": [],
+                "dropdown": [],
+                "mobile": true,
+                "desktop": true,
+                "hideWhenSticky": false
+            },
+            {
+                "icon": "",
+                "text": "Contact Us",
+                "link": "/contact-us",
+                "classes": [],
+                "dropdown": [],
+                "mobile": true,
+                "desktop": true,
+                "hideWhenSticky": false
+            }
+        ]
+    }
+}

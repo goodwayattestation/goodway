@@ -1,0 +1,43 @@
+.atom-accordian .atom-accordian-tab {
+  border: 1px solid lightgray;
+  box-shadow: 0px 1px 2px lightslategrey;
+}
+.atom-accordian .atom-accordian-tab-header {
+  cursor: pointer;
+  padding: 10px 5px;
+}
+.atom-accordian .atom-accordian-tab-header.open {
+  border-bottom: 1px solid lightgray;
+  background-color: #f2f2f2;
+}
+.atom-accordian .atom-accordian-tab-header h3 {
+  font-size: 20px;
+}
+.atom-accordian .atom-accordian-tab-header-arrow {
+  border-bottom: 2px solid #3e403f;
+  border-left: 2px solid #3e403f;
+  transform: rotate(-45deg);
+  height: 5px;
+  width: 5px;
+  margin-bottom: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.atom-accordian .atom-accordian-tab-header-arrow.open {
+  transform: rotate(-135deg);
+  margin-bottom: 2px;
+}
+.atom-accordian .atom-accordian-tab-header:hover {
+  background-color: #d5eefd;
+}
+.atom-accordian .atom-accordian-tab-content {
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.1s ease-in-out;
+  line-height: 1.7;
+  font-size: 16px;
+  font-weight: 500;
+}
+.atom-accordian .atom-accordian-tab-content.active {
+  height: initial;
+  padding: 10px 15px;
+}

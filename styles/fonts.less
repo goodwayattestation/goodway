@@ -1,0 +1,20 @@
+@importantPrefix: i;
+@fonts: {
+    quicksand: 'Quicksand', sans-serif;
+};
+@fontPrefix: ft;
+@fontImportant: true;
+
+each(@fonts, {
+    .@{fontPrefix}\:@{key} {
+        font-family: @value;
+    }
+});
+
+if(@fontImportant, 
+    each(@fonts, {
+        .@{importantPrefix}@{fontPrefix}\:@{key} {
+            font-family: @value !important;
+        }
+    }),
+);
