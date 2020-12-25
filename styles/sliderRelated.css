@@ -1,0 +1,23 @@
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+	z-index: 1;
+}
+.slick-arrow.slick-prev::before,
+.slick-arrow.slick-next::before {
+	color: black;
+	position: relative;
+	z-index: 1;
+}
+.slick-arrow.slick-prev::before {
+	right: -50px;
+}
+.slick-arrow.slick-next::before {
+	left: -50px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.slick-arrow.slick-prev,
+	.slick-arrow.slick-next {
+		display: none !important;
+	}
+}

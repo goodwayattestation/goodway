@@ -1,0 +1,17 @@
+.routes-mofa-attestation_content p,
+.routes-mofa-attestation_content ul {
+  font-size: 16px;
+}
+.routes-mofa-attestation_content ul {
+  list-style-type: disc;
+  line-height: 1.7;
+  margin-left: 12px;
+}
+.routes-mofa-attestation_content h3 {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 1023px) {
+  .routes-mofa-attestation .educational {
+    margin-top: 18px;
+  }
+}

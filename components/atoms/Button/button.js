@@ -1,12 +1,22 @@
 import React from 'react';
-import './button.css';
+import styles from './button.module.css';
 
 function Button(props) {
 	return (
 		<a
-			className={`atom-button-${props.size === -1 ? 'extra-small' : props.size === 0 ? 'small' : 'large'}-${
-				props.color ? props.color : 'orangered'
-			} ${props.className ? props.className : ''} ${props.disabled ? 'disabled' : ''}`}
+			className={`${
+				styles[
+					`atom-button-${
+						props.size === -1
+							? 'extra-small'
+							: props.size === 0
+							? 'small'
+							: 'large'
+					}-${props.color ? props.color : 'orangered'}`
+				]
+			} ${props.disabled ? 'disabled' : ''} ${
+				props.className ? props.className : ''
+			}`}
 			href={props.url ? props.url : '#'}
 			onClick={props.handleClick}
 		>

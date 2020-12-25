@@ -1,39 +1,51 @@
-import React, { useState, useEffect } from 'react';
-import './marquee-bar.css';
+import React from 'react';
+import Marquee from 'marquee-react-dwyer';
+
+import styles from './marquee-bar.module.css';
 
 function MarqueeBar(props) {
-    return (
-        <section className="container-fluid organism-marqueeBar xs-pb-6 md-pt-6 md-pb-12">
-            <div className="row middle-xs">
-                <div className="col-xs-12 col-md-8">
-                    <marquee className="organism-marqueeBar-marquee">
-                        An ISO 9001:2015 certified company and approved by Government Embassies
-                    </marquee>
-                </div>
-                <div className="col-xs-12 col-md-4 center-xs end-md hidden-sm-down">
-                    <a className="organism-marqueeBar-social c:p d:i-block xs-mr-6 md-mr-12" style={{ backgroundImage: `url('./images/twitter.png')` }}>
-                    
-                    </a>
+	return (
+		<section className={`container-fluid xs-pb-6 md-pt-6 md-pb-12`}>
+			<div className="row middle-xs">
+				<div className="col-xs-12 col-md-8">
+					<Marquee
+						className={styles['organism-marqueeBar-marquee']}
+						Size={'h3'}
+						NumberOfOptions={'1'}
+						Index0={
+							'An ISO 9001:2015 certified company and approved by Government Embassies'
+						}
+						TimeToCross={'20000'}
+						TimeToChange={'0'}
+						Color={'red'}
+					/>
+				</div>
+				<div className="col-xs-12 col-md-4 center-xs end-md hidden-sm-down">
+					<a
+						className={`${styles['organism-marqueeBar-social']} c:p d:i-block xs-mr-6 md-mr-12`}
+						style={{ backgroundImage: `url('./images/twitter.png')` }}
+					></a>
 
-                    <a className="organism-marqueeBar-social c:p d:i-block xs-mr-6 md-mr-12" style={{ backgroundImage: `url('./images/facebook.png')` }}>
-                    
-                    </a>
+					<a
+						className={`${styles['organism-marqueeBar-social']} c:p d:i-block xs-mr-6 md-mr-12`}
+						style={{ backgroundImage: `url('./images/facebook.png')` }}
+					></a>
 
-                    <a className="organism-marqueeBar-social c:p d:i-block xs-mr-6 md-mr-12" style={{ backgroundImage: `url('./images/linkedin.png')` }}>
-                    
-                    </a>
+					<a
+						className={`${styles['organism-marqueeBar-social']} c:p d:i-block xs-mr-6 md-mr-12`}
+						style={{ backgroundImage: `url('./images/linkedin.png')` }}
+					></a>
 
-                    <a className="organism-marqueeBar-social c:p d:i-block" style={{ backgroundImage: `url('./images/instagram.png')` }}>
-                    
-                    </a>
+					<a
+						className={`${styles['organism-marqueeBar-social']} c:p d:i-block`}
+						style={{ backgroundImage: `url('./images/instagram.png')` }}
+					></a>
 
-                    <a className="organism-marqueeBar-social c:p d:n">
-
-                    </a>
-                </div>
-            </div>
-        </section>
-    );
+					<a className={`${styles['organism-marqueeBar-social']} c:p d:n`}></a>
+				</div>
+			</div>
+		</section>
+	);
 }
 
 export default MarqueeBar;

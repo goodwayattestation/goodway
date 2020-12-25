@@ -1,0 +1,11 @@
+.routes-hrd-department_content .hrd {
+  margin-top: 30px;
+}
+.routes-hrd-department_content p {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1023px) {
+  .routes-hrd-department {
+    margin-top: 18px;
+  }
+}

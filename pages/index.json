@@ -1,0 +1,50 @@
+[
+    {
+        "img": "./images/21.png",
+        "url": "/certificate-attestation-bangalore",
+        "headline": "Certificate Attestation",
+        "buttonText": "Know more",
+        "buttonUrl": "/certificate-attestation-bangalore",
+        "additionalInfo": "Attestation is necessary for relocating to foreign nations"
+    },
+    {
+        "img": "./images/22.png",
+        "url": "/certificate-apostille-bangalore",
+        "headline": "Certificate Apostille",
+        "buttonText": "Know more",
+        "buttonUrl": "/certificate-apostille-bangalore",
+        "additionalInfo": "Apostille services for Birth, Marriage & Educational degree certificates"
+    },
+    {
+        "img": "./images/23.png",
+        "url": "/visa-stamping-service-india",
+        "headline": "Visa Stamping",
+        "buttonText": "Know more",
+        "buttonUrl": "/visa-stamping-service-india",
+        "additionalInfo": "Conditional authorization granted by a country to a foreigner"
+    },
+    {
+        "img": "./images/24.png",
+        "url": "/state-hrd-home-department-attestation",
+        "headline": "HRD & Home Department",
+        "buttonText": "Know more",
+        "buttonUrl": "/state-hrd-home-department-attestation",
+        "additionalInfo": "HRD attestation is a critical and crucial step of certificate attesttaion"
+    },
+    {
+        "img": "./images/25.png",
+        "url": "/mea-attestaion-apostille-services",
+        "headline": "MEA Attestation",
+        "buttonText": "Know more",
+        "buttonUrl": "/mea-attestaion-apostille-services",
+        "additionalInfo": "MEA attestation is a mandatory process to make any certificate legal"
+    },
+    {
+        "img": "./images/26.png",
+        "url": "/mofa-attestaion-services",
+        "headline": "MOFA Attestation",
+        "buttonText": "Know more",
+        "buttonUrl": "/mofa-attestaion-services",
+        "additionalInfo": "All original documents requiring attestation or apostille"
+    }
+]

@@ -1,0 +1,10 @@
+.routes-germany-apostille .routes-germany-apostille_content p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+}
+@media only screen and (max-width: 1023px) {
+  .routes-germany-apostille .routes-germany-apostille_content p {
+    font-size: 14px;
+  }
+}

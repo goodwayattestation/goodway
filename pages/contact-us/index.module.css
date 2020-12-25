@@ -1,0 +1,24 @@
+.route-contact-us-container {
+  width: 100%;
+}
+.route-contact-us-container p {
+  font-size: 16px;
+}
+.route-contact-us-container h2 {
+  padding-left: 0px;
+}
+.route-contact-us-container_headerImage {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.55);
+}
+.route-contact-us-container_headerImage + h2 {
+  position: relative;
+  top: -135px;
+  color: white;
+  height: 0px;
+}
+.route-contact-us-container_editorial .organism-editorial-body p {
+  font-size: 17px;
+}

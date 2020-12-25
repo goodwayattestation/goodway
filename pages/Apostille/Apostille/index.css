@@ -1,0 +1,30 @@
+.route-apostille-container {
+  width: 100%;
+}
+.route-apostille-container_headerImage {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.55);
+}
+.route-apostille-container_headerImage + h2 {
+  position: relative;
+  top: -135px;
+  color: white;
+  height: 0px;
+}
+.route-apostille-container_editorial .organism-editorial-body p {
+  font-size: 17px;
+}
+.route-apostille-container ul {
+  list-style-type: disc;
+  line-height: 1.7;
+  margin-left: 48px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.route-apostille-container p {
+  font-size: 19px;
+  font-weight: 500;
+  margin-left: 30px;
+}

@@ -1,0 +1,40 @@
+.route-about-us {
+    &-container {
+        width: 100%;
+        &_headerImage {
+            height: 230px;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: brightness(0.55);
+
+            &+h2 {
+                position: relative;
+                top: -135px;
+                color: white;
+                height: 0px;
+            }
+        }
+    }
+
+    .edu{
+        list-style: disc;
+        line-height: 1.7;
+        margin-left: 12px;
+        font-size: 16px;
+    }
+
+    .what-we-do {
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+        }
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .route-about-us {
+        .edu {
+            margin-top: 18px;
+        }
+    }
+}

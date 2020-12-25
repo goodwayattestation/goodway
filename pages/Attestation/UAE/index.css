@@ -1,0 +1,14 @@
+.routes-UAE-attestation_content p,
+.routes-UAE-attestation_content ul {
+  font-size: 16px;
+}
+.routes-UAE-attestation_content ul {
+  list-style-type: disc;
+  line-height: 1.7;
+  margin-left: 12px;
+}
+@media only screen and (max-width: 1023px) {
+  .routes-UAE-attestation .educationalCertificateAttestation {
+    margin-top: 18px;
+  }
+}

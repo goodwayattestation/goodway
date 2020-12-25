@@ -1,0 +1,18 @@
+.route-attestation-container {
+  width: 100%;
+}
+.route-attestation-container_headerImage {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.55);
+}
+.route-attestation-container_headerImage + h2 {
+  position: relative;
+  top: -135px;
+  color: white;
+  height: 0px;
+}
+.route-attestation-container_editorial .organism-editorial-body p {
+  font-size: 17px;
+}

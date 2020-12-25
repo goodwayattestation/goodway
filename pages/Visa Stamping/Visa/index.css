@@ -1,0 +1,15 @@
+.routes-visa-stamping-body {
+  width: 100%;
+}
+.routes-visa-stamping-body-headerImage {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.55);
+}
+.routes-visa-stamping-body-headerImage + h2 {
+  position: relative;
+  top: -135px;
+  color: white;
+  height: 0px;
+}

@@ -157,12 +157,13 @@
     }
 }
 
+.secondRow {
+	background-color: #009bff;
+	border-radius: 6px;
+}
+
 @media only screen and (min-width: 1024px) {
     .organism-navigation-bar {
-        .container-fluid > .row:nth-child(2) {
-            padding: 0px !important;
-        }
-
         ul {
             li {
                 margin-bottom: 0px !important;
@@ -180,6 +181,10 @@
             }
         }
     }
+
+    .secondRow {
+	    padding: 0px !important;
+    }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -193,7 +198,7 @@
             top: 3px;
         }
 
-        & > .container-fluid .row:nth-child(2) {
+        .secondRow {
             .listContainer {
                 display: none;
 
@@ -210,14 +215,14 @@
         }
 
         
-            .listContainer {
-                ul {
-                    width: 100%;
-                    -webkit-box-pack: center;
-                    -ms-flex-pack: center;
-                    justify-content: center;
-                    text-align: center;
-                }
+        .listContainer {
+            ul {
+                width: 100%;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                text-align: center;
             }
+        }
     }
 }

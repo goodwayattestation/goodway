@@ -1,0 +1,17 @@
+.routes-uae-visastamping_content .edu h3 {
+  padding-left: 50px;
+}
+.routes-uae-visastamping_content p,
+.routes-uae-visastamping_content ul {
+  font-size: 16px;
+}
+.routes-uae-visastamping_content ul {
+  list-style-type: disc;
+  line-height: 1.7;
+  margin-left: 12px;
+}
+@media only screen and (max-width: 1023px) {
+  .routes-uae-visastamping .educationalCertificateAttestation {
+    margin-top: 18px;
+  }
+}

@@ -1,0 +1,18 @@
+.routes-mea-attestation_content p,
+.routes-mea-attestation_content ul {
+  font-size: 16px;
+}
+.routes-mea-attestation_content ul {
+  list-style-type: disc;
+  line-height: 1.7;
+  margin-left: 12px;
+  padding-left: 4px;
+}
+.routes-mea-attestation_content h3 {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 1023px) {
+  .routes-mea-attestation .educationalCertificateAttestation {
+    margin-top: 18px;
+  }
+}
