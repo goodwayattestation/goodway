@@ -21,6 +21,7 @@
   width: 5px;
   margin-bottom: 5px;
   transition: all 0.2s ease-in-out;
+  display: inline-block;
 }
 .atom-accordian .atom-accordian-tab-header-arrow.open {
   transform: rotate(-135deg);

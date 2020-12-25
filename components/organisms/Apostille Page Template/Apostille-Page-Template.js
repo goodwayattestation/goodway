@@ -1,21 +1,28 @@
 import React, { useState, useEffect } from 'react';
-import './Apostille-Page-Template.css';
+import styles from './Apostille-Page-Template.module.css';
 import Content from './apostillePageTemplateContent.json';
 
 function ApostillePageTemplate(props) {
+    const [currentPath, setCurrentPath] = useState('');
+
+    useEffect((a) => {
+        setCurrentPath(window.location.pathname);
+    });
     return (
-        <section className="organism-apostille-page">
+        <section className={styles['organism-apostille-page']}>
             <div className="container-fluid">
                 <div className="row xs-mt-12 md-mt-30">
                     <div className="col-xs-12">
-                        <div className="organism-apostille-page_headerImage" style={{ backgroundImage: `url('./images/3.jpg')` }}>
-                        </div>
+                        <div
+                            className={styles['organism-apostille-page_headerImage']}
+                            style={{ backgroundImage: `url('./images/3.jpg')` }}
+                        ></div>
                         <h2 className="t-a:c xs-pl-6 xs-pr-6">{props.headline}</h2>
                     </div>
                 </div>
                 <div className="row xs-mt-12 md-mt-30">
                     <div className="col-xs-12 col-md-4 hidden-sm-down">
-                        <table className="organism-apostille-page_sidebar">
+                        <table className={styles['organism-apostille-page_sidebar']}>
                             {Content.sidebar.map((a, i) => (
                                 <tr>
                                     {a.headline ? (
@@ -25,7 +32,12 @@ function ApostillePageTemplate(props) {
                                     ) : (
                                         <td>
                                             {a.link !== '' ? (
-                                                <a href={a.link} className={`color-black ${(a.link === window.location.pathname)?'selected':''}`}>
+                                                <a
+                                                    href={a.link}
+                                                    className={`color-black ${
+                                                        a.link === currentPath ? 'selected' : ''
+                                                    }`}
+                                                >
                                                     {a.text}
                                                 </a>
                                             ) : (
@@ -37,9 +49,7 @@ function ApostillePageTemplate(props) {
                             ))}
                         </table>
                     </div>
-                    <div className="col-xs-12 col-md-8 children">
-                        {props.children}
-                    </div>
+                    <div className={`${styles['children']} col-xs-12 col-md-8`}>{props.children}</div>
                 </div>
             </div>
         </section>

@@ -11,29 +11,29 @@ function Accordian(props) {
     return (
         <div className={styles['atom-accordian']} ref={accordianRef}>
             {tabs.map((a, i) => (
-                <div className="atom-accordian-tab xs-mb-12 md-mb-18" id={`tab-${i}`}>
+                <div className={`${styles['atom-accordian-tab']} xs-mb-12 md-mb-18`} id={`tab-${i}`}>
                     <div
                         className={`${styles['atom-accordian-tab-header']} color-black ${i === 0 ? 'open' : ''}`}
                         onClick={(e) => {
                             accordianRef.current
-                                .querySelector(`#tab-${tabSelected} .atom-accordian-tab-content`)
-                                .classList.remove('active');
+                                .querySelector(`#tab-${tabSelected} .${styles['atom-accordian-tab-content']}`)
+                                .classList.remove(`${styles['active']}`);
                             accordianRef.current
-                                .querySelector(`#tab-${tabSelected} .atom-accordian-tab-header-arrow`)
-                                .classList.remove('open');
+                                .querySelector(`#tab-${tabSelected} .${styles['atom-accordian-tab-header-arrow']}`)
+                                .classList.remove(`${styles['open']}`);
                             accordianRef.current
-                                .querySelector(`#tab-${tabSelected} .atom-accordian-tab-header`)
-                                .classList.remove('open');
+                                .querySelector(`#tab-${tabSelected} .${styles['atom-accordian-tab-header']}`)
+                                .classList.remove(`${styles['open']}`);
                             setTabSelected(i);
                             accordianRef.current
-                                .querySelector(`#tab-${i} .atom-accordian-tab-content`)
-                                .classList.add('active');
+                                .querySelector(`#tab-${i} .${styles['atom-accordian-tab-content']}`)
+                                .classList.add(`${styles['active']}`);
                             accordianRef.current
-                                .querySelector(`#tab-${i} .atom-accordian-tab-header-arrow`)
-                                .classList.add('open');
+                                .querySelector(`#tab-${i} .${styles['atom-accordian-tab-header-arrow']}`)
+                                .classList.add(`${styles['open']}`);
                             accordianRef.current
-                                .querySelector(`#tab-${i} .atom-accordian-tab-header`)
-                                .classList.add('open');
+                                .querySelector(`#tab-${i} .${styles['atom-accordian-tab-header']}`)
+                                .classList.add(`${styles['open']}`);
                         }}
                     >
                         <h3 className="d:i-block">
