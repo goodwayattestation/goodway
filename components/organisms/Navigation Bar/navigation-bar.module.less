@@ -64,6 +64,22 @@
     border-radius: 4px;
 }
 
+.secondRow {
+    background-color: #009BFF;
+    border-radius: 6px;
+
+    ul {
+        li,
+        li a {
+            transition: 0.05s all ease-in-out;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+
 .organism-navigation-bar {
     &_logo {
         max-width: 150px;
@@ -91,27 +107,6 @@
 
         .svg-inline--fa.fa-envelope {
             top: 1px;
-        }
-    }
-
-    .container-fluid > .row:nth-child(2) {
-        background-color: #009BFF;
-        border-radius: 6px;
-
-        ul {
-            li,
-            li a {
-                transition: 0.05s all ease-in-out;
-
-                .svg-inline--fa.fa-chevron-down {
-                    top: 2px;
-                    width: 0.575em;
-                }
-
-                &:hover {
-                    color: black;
-                }
-            }
         }
     }
 
@@ -157,12 +152,16 @@
     }
 }
 
-.secondRow {
-	background-color: #009bff;
-	border-radius: 6px;
+.arrowDown {
+    top: 2px;
+    width: 0.575em !important;
 }
 
 @media only screen and (min-width: 1024px) {
+    .secondRow {
+        padding: 0px !important;
+    }
+
     .organism-navigation-bar {
         ul {
             li {
@@ -198,18 +197,6 @@
             top: 3px;
         }
 
-        .secondRow {
-            .listContainer {
-                display: none;
-
-                ul {
-                    li {
-                        display: block;
-                    }
-                }
-            }
-        }
-
         .contactNumber {
             font-size: 14px;
         }
@@ -222,6 +209,18 @@
                 -ms-flex-pack: center;
                 justify-content: center;
                 text-align: center;
+            }
+        }
+    }
+
+    .secondRow {
+        .listContainer {
+            display: none;
+
+            ul {
+                li {
+                    display: block;
+                }
             }
         }
     }
