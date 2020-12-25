@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './navigation-bar.module.css';
-import Button from '../../atoms/Button/button';
+import btnStyles from '../../atoms/Button/button.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faBars,
@@ -168,12 +168,15 @@ function NavigationBar(props) {
 						</a>
 						{props.showTrackStatusBtn && (
 							<Link href={content.firstRow.trackStatusBtn.link}>
-								<Button
-									className="d:i-flex"
-									color="dodgerblue"
-									name={content.firstRow.trackStatusBtn.text}
-									size={isMobile ? 0 : 1}
-								/>
+								<a
+									className={`d:i-flex ${
+										btnStyles[
+											`atom-button-${isMobile ? 'small' : 'large'}-dodgerblue`
+										]
+									}`}
+								>
+									{content.firstRow.trackStatusBtn.text}
+								</a>
 							</Link>
 						)}
 					</div>

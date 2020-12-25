@@ -14,7 +14,7 @@ function Button(props) {
 							: 'large'
 					}-${props.color ? props.color : 'orangered'}`
 				]
-			} ${props.disabled ? 'disabled' : ''} ${
+			} ${props.disabled ? styles.disabled : ''} ${
 				props.className ? props.className : ''
 			}`}
 			href={props.url ? props.url : '#'}

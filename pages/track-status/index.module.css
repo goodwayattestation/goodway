@@ -7,21 +7,18 @@
 	height: 30px;
 	text-align: center;
 }
-
 .none {
 	display: none;
 }
-
-table,
-th,
-td {
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-
 .trackingResponseTable {
 	margin: auto;
 	text-align: left;
+}
+.trackingResponseTable,
+.trackingResponseTable th,
+.trackingResponseTable td {
+	border: 1px solid black;
+	border-collapse: collapse;
 }
 .trackingResponseTable td {
 	padding: 10px;
@@ -30,7 +27,6 @@ td {
 .trackingResponseTable td.header {
 	font-weight: bold;
 }
-
 @media only screen and (max-width: 1023px) {
 	.routes-track-status h2 {
 		font-size: 20px !important;
