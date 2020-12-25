@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../../atoms/Card/card.js';
-import styles from './showcase.module.css';
 
 function Showcase(props) {
 	const content = props.content;
@@ -13,9 +12,7 @@ function Showcase(props) {
 	);
 
 	return (
-		<div
-			className={`${styles['organism-showcase']} xs-mt-6 xs-mb-6 md-mt-12 md-mb-12`}
-		>
+		<div className={`organism-showcase xs-mt-6 xs-mb-6 md-mt-12 md-mb-12`}>
 			<div className="container-fluid">
 				{content.map((a, i) => (
 					<React.Fragment key={i}>

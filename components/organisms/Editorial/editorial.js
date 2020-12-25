@@ -27,9 +27,7 @@ function Editorial(props) {
 	}
 
 	return (
-		<div
-			className={`${styles['organism-editorial']} xs-mt-12 xs-mb-12 md-mt-24 md-mb-24`}
-		>
+		<div className={`organism-editorial xs-mt-12 xs-mb-12 md-mt-24 md-mb-24`}>
 			<div className="container-fluid">
 				<div
 					className={`row ${props.verticalAlign === 'top' ? '' : 'middle-xs'}`}
