@@ -1,25 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavigationBar from '../../components/organisms/Navigation Bar/navigation-bar.js';
 import VisastampingTemplate from '../../components/organisms/Visa Stamping Template/visastamping-template.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
 
-function UAEVisastamping() {
+function KuwaitVisastamping() {
     return (
         <Layout
-            title="UAE Visa Stamping in Bangalore - Work Visa Stamping Services Near Me"
-            description="UAE Visa Stamping Services in Bangalore, Call:9148889666. UAE Work Visa Stamping, UAE Employee Visa Stamping, Job Visa Stamping for UAE."
-            keywords="uae visa stamping service, uae visa stamping process, job visa stamping for uae, uae visa stamping online, uae visa stamping india, medical treatment visa for uae, visa stamping for uae"
-            canonical="https://www.goodwayattestation.com/uae-visa-stamping"
-            pageHeader="UAE Visa Stamping in Bangalore"
+            title="Kuwait Visa Stamping Services in Bangalore - Work Visa & Medical Treatment Visa for Kuwait"
+            description="Kuwait Visa Stamping Services in Bangalore, Call:9148889666. Kuwait Work Visa Stamping, Kuwait Employee Visa Stamping, Job Visa Stamping for Kuwait & Kuwait Medical Treatment Visa Stamping."
+            keywords="kuwait visa stamping service, kuwait visa stamping process, job visa stamping for kuwait, kuwait visa stamping online, kuwait visa stamping india, medical treatment visa for kuwait, visa stamping for kuwait, kuwait visa stamping rates"
+            canonical="https://www.goodwayattestation.com/kuwait-visa-stamping"
+            pageHeader="Kuwait Visa Stamping Services in Bangalore"
         >
-            <div className={styles['routes-uae-visastamping']}>
+            <div className={styles['routes-kuwait-visastamping']}>
                 <NavigationBar showTrackStatusBtn={true} />
-                <VisastampingTemplate headline="Visa Stamping Service For UAE In Bengaluru">
-                    <div className={styles['routes-uae-visastamping_content']}>
+                <VisastampingTemplate headline="Visa Stamping Service For Kuwait In Bengaluru">
+                    <div className={styles['routes-kuwait-visastamping_content']}>
                         <div className="row center-xs xs-mt-12 md-mt-54">
                             <div className="col-xs-12">
-                                <h3 className="color-black">UAE VISA STAMPING</h3>
+                                <h3 className="color-black">KUWAIT VISA STAMPING</h3>
                                 <p className="t-a:j xs-mt-18 md-mt-24 f-w:500">
                                     A visa is a conditional authorization granted by a country to a foreigner, allowing
                                     them to enter, remain within, or to leave that country. Visas typically include
@@ -32,7 +32,7 @@ function UAEVisastamping() {
                                     the time of actual entry, and can be revoked at any time.
                                 </p>
                                 <p className="t-a:j xs-mt-18 md-mt-24 f-w:500">
-                                    Documentary requirements of different categories of UAE visa (Visit / Transit /
+                                    Documentary requirements of different categories of Kuwaiti visa (Visit / Transit /
                                     Business / study / work / family reunion / medical / cultural) are different for
                                     each category. However, all visas are subject to the submission of the following
                                     documents:
@@ -69,7 +69,7 @@ function UAEVisastamping() {
                                 <h3 className="t-a:l">DOCUMENTS FOR FAMILY VISA & RESIDENCE VISA</h3>
 
                                 <ul className="t-a:l xs-mt-18 md-mt-24 md-ml-66 f-w:500">
-                                    <li className="xs-mb-6"> ORIGINAL VISA </li>
+                                    <li className="xs-mb-6 "> ORIGINAL VISA </li>
                                     <li className="xs-mb-6"> PASSPORT </li>
                                     <li className="xs-mb-6"> MEDICAL with GAMCA SLIP </li>
                                     <li className="xs-mb-6"> PCC issued by Passport Office </li>
@@ -96,4 +96,4 @@ function UAEVisastamping() {
     );
 }
 
-export default UAEVisastamping;
+export default KuwaitVisastamping;
