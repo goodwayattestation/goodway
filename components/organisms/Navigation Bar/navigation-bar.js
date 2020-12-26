@@ -104,6 +104,7 @@ function NavigationBar(props) {
 										className={`${styles['contactNumber']} md-ml-12 md-mr-12 color-teal f-w:700`}
 										href={`tel:${c.number}`}
 										key={i}
+										data-testid={`contact-number-${i}-1`}
 									>
 										{c.icon && (
 											<FontAwesomeIcon
@@ -122,6 +123,7 @@ function NavigationBar(props) {
 								<a
 									className={`${styles['email']} color-teal f-w:600`}
 									href={`mailTo:${content.firstRow.contact.email.email}`}
+									data-testid="nav-email"
 								>
 									{content.firstRow.contact.email.icon && (
 										<FontAwesomeIcon
@@ -194,6 +196,7 @@ function NavigationBar(props) {
 									<a
 										className={`${styles['contactNumber']} xs-ml-12 color-white f-w:700`}
 										href={`tel:${c.number}`}
+										data-testid={`contact-number-${i}-2`}
 									>
 										{c.icon && (
 											<FontAwesomeIcon
