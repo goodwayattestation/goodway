@@ -1,51 +1,51 @@
 {
-	"name": "goodway",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"test": "jest"
-	},
-	"dependencies": {
-		"@fortawesome/fontawesome": "^1.1.8",
-		"@fortawesome/fontawesome-free-solid": "^5.0.13",
-		"@fortawesome/fontawesome-svg-core": "^1.2.30",
-		"@fortawesome/free-regular-svg-icons": "^5.14.0",
-		"@fortawesome/react-fontawesome": "^0.1.11",
-		"@testing-library/user-event": "^7.2.1",
-		"axios": "^0.20.0",
-		"font-awesome": "^4.7.0",
-		"jquery": "^3.5.1",
-		"marquee-react-dwyer": "^5.9.90",
-		"next": "10.0.4",
-		"react": "17.0.1",
-		"react-dom": "17.0.1",
-		"react-router-dom": "^5.2.0",
-		"react-scripts": "^3.4.3",
-		"react-slick": "^0.25.2",
-		"slick-carousel": "^1.8.1",
-		"styled-components": "^5.2.1"
-	},
-	"devDependencies": {
-		"@testing-library/dom": "^7.29.0",
-		"@testing-library/jest-dom": "^4.2.4",
-		"@testing-library/react": "^9.5.0",
-		"babel-jest": "^26.6.3",
-		"jest": "^26.6.3"
-	},
-	"jest": {
-		"testPathIgnorePatterns": [
-			"<rootDir>/.next/",
-			"<rootDir>/node_modules/"
-		],
-		"transform": {
-			"^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
-		},
-		"moduleNameMapper": {
-			"\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-			"\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
-		}
-	}
+    "name": "goodway",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome": "^1.1.8",
+        "@fortawesome/fontawesome-free-solid": "^5.0.13",
+        "@fortawesome/fontawesome-svg-core": "^1.2.30",
+        "@fortawesome/free-regular-svg-icons": "^5.14.0",
+        "@fortawesome/react-fontawesome": "^0.1.11",
+        "@testing-library/user-event": "^7.2.1",
+        "axios": "^0.20.0",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.5.1",
+        "marquee-react-dwyer": "^5.9.90",
+        "next": "9.4.4",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^3.4.3",
+        "react-slick": "^0.25.2",
+        "slick-carousel": "^1.8.1",
+        "styled-components": "^5.2.1"
+    },
+    "devDependencies": {
+        "@testing-library/dom": "^7.29.0",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "babel-jest": "^26.6.3",
+        "jest": "^26.6.3"
+    },
+    "jest": {
+        "testPathIgnorePatterns": [
+            "<rootDir>/.next/",
+            "<rootDir>/node_modules/"
+        ],
+        "transform": {
+            "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
+        },
+        "moduleNameMapper": {
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+            "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+        }
+    }
 }
