@@ -28,37 +28,24 @@ function AustriaApostille() {
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            <b>Duration for Apostille:</b> 2 Working Days
+                            <b>Certificate Apostille Services Process:</b>
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            This will be without verification in which the ministry will put a seal stating that THE
-                            MINISTRY OF EXTERNAL AFFAIRS ARE NOT RESPONSIBLE FOR THE CONTENT.
+                            First step is to get Attestation on your certificate from respective State Home Department.
+                            Once the state level Home Department Attestation on certificate is done, the certificate
+                            will be then apostilled from Ministry of External Affairs, national capital and Attestation
+                            from functionary, New Delhi.
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            Procedure for certificate apostille: Submit your original certificate with a photocopy of
-                            passport, the certificates will be given to Sub Divisional Magistrate wherein it will be
-                            authenticated then Ministry of External Affairs will Apostille your document.
+                            <b>Documents required:</b>
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            <b>Duration for Apostille:</b> 2 Working Days
-                        </p>
-
-                        <p className="xs-mt-12 md-mt-18">
-                            This will be without verification in which the ministry will put a seal stating that THE
-                            MINISTRY OF EXTERNAL AFFAIRS ARE NOT RESPONSIBLE FOR THE CONTENT.
-                        </p>
-
-                        <p className="xs-mt-12 md-mt-18">
-                            Procedure for certificate apostille: If you submit your original certificate with a
-                            photocopy of the passport we will first submit your document to HRD Department of Concerned
-                            State wherein it will be authenticated then Ministry of External Affairs will Apostille your
-                            document.
-                        </p>
-                        <p className="xs-mt-12 md-mt-18">
-                            <b>Duration for Apostille:</b> 10 to 15 Working Days
+                            {' '}
+                            <li>Original Certificate</li>
+                            <li>Photocopy of Passport (1st and last page)</li>
                         </p>
                     </div>
                 </ApostillePageTemplate>

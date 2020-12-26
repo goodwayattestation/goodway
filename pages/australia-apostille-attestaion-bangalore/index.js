@@ -28,62 +28,26 @@ function AustraliaApostille() {
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            <b>Duration for Apostille:</b> 2 Working Days
+                            <b>Certificate Apostille Services Process:</b>
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            This will be without verification in which the ministry will put a seal stating that THE
-                            MINISTRY OF EXTERNAL AFFAIRS ARE NOT RESPONSIBLE FOR THE CONTENT.
+                            First step is to get Attestation on your certificate from respective State Home Department.
+                            Once the state level Home Department Attestation on certificate is done, the certificate
+                            will be then apostilled from Ministry of External Affairs, national capital and Attestation
+                            from functionary, New Delhi.
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            Procedure for certificate apostille: Submit your original certificate with a photocopy of
-                            passport, the certificates will be given to Sub Divisional Magistrate wherein it will be
-                            authenticated then Ministry of External Affairs will Apostille your document.
+                            <b>Documents required:</b>
                         </p>
 
                         <p className="xs-mt-12 md-mt-18">
-                            <b>Duration for Apostille:</b> 2 Working Days
+                            {' '}
+                            <li>Original Certificate</li>
+                            <li>Photocopy of Passport (1st and last page)</li>
                         </p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            This will be without verification in which the ministry will put a seal stating that THE
-                            MINISTRY OF EXTERNAL AFFAIRS ARE NOT RESPONSIBLE FOR THE CONTENT.
-                        </p>
-
-                        <p className="xs-mt-12 md-mt-18">
-                            Procedure for certificate apostille: If you submit your original certificate with a
-                            photocopy of the passport we will first submit your document to HRD Department of Concerned
-                            State wherein it will be authenticated then Ministry of External Affairs will Apostille your
-                            document.
-                        </p>
-                        <p className="xs-mt-12 md-mt-18">
-                            <b>Duration for Apostille:</b> 10 to 15 Working Days
-                        </p>
-
-                        <p className="xs-mt-12 md-mt-18">
-                            Australia is popularly called “the land Down Under” because of its location on the globe.
-                            Being the sixth largest country, Australia can be bracketed along with countries such as the
-                            United States of America, Germany and others.
-                        </p>
-
-                        <p className="xs-mt-12 md-mt-18">
-                            Australia is one of the premier destinations for people desirous of higher studies and also
-                            a better life. Melbourne and Sydney, capital cities of Victoria and New South Wales states
-                            respectively, regularly feature in the top ten of the “Happiest Cities in the World”
-                            listing.
-                        </p>
-                        <p className="xs-mt-12 md-mt-18">
-                            Make your travel documents processing a lot easier with apostilling services. Interact with
-                            our friendly and helpful staff at Goodway Attestation regarding apostilling of certificates
-                            and documents by the Australian authorities, such as the High Commission of Australia.
-                        </p>
-                        <p className="xs-mt-12 md-mt-18">
-                            Step into our Goodway Attestation office for apostille services related to the High
-                            Commission of Australia in Bengaluru. Get your educational certificates, marriage
-                            certificates and important documents apostilled by the Australian High Commission with our
-                            help, at nominal costs.
-                        </p>
                         <p className="xs-mt-12 md-mt-18">
                             If you plan to visit other countries from Australia, apostille certification will help
                             greatly, if that country is a member of the Hague Apostille Convention.
