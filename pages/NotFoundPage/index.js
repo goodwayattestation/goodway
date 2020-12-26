@@ -1,9 +1,9 @@
 import React from 'react';
 import NavigationBar from '../../components/organisms/Navigation Bar/navigation-bar.js';
 
-function NotFoundPage(props) {
+function NotFoundPage() {
     return (
-        <div className={styles['routes-not-found']}>
+        <div>
             <NavigationBar showTrackStatusBtn={true} />
             <h4>
                 You seemed to have lost track.. This is certainly not where you wished to land. Otherwise, it's all here
