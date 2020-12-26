@@ -26,7 +26,7 @@ function AttestationTemplate(props) {
                     <div className="col-md-4 hidden-sm-down">
                         <table className={styles['organism-attestation_sidebar']}>
                             {Content.sidebar.map((a, i) => (
-                                <tr>
+                                <tr key={a.text}>
                                     {a.headline ? (
                                         <th>
                                             <b className="color-black">{a.text}</b>
