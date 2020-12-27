@@ -37,7 +37,7 @@ function AttestationTemplate(props) {
                                                 <a
                                                     href={a.link}
                                                     className={`color-black ${
-                                                        a.link === currentPath ? 'selected' : ''
+                                                        a.link === currentPath ? styles['selected'] : ''
                                                     }`}
                                                 >
                                                     {a.text}
