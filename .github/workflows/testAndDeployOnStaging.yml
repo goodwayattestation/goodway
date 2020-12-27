@@ -43,4 +43,6 @@ jobs:
           git pull origin main
           npm ci
           npm run build
-          sudo supervisorctl restart goodwaySSRStaging
+          sudo supervisorctl stop goodwaySSRStaging
+          sleep 10
+          sudo supervisorctl start goodwaySSRStaging
