@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import NavigationBar from '../../components/organisms/Navigation Bar/navigation-bar.js';
-import VisastampingTemplate from '../../components/organisms/Visa Stamping Template/visastamping-template.js';
 import Editorial from '../../components/organisms/Editorial/editorial.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';

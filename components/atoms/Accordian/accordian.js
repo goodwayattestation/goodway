@@ -11,7 +11,7 @@ function Accordian(props) {
     return (
         <div className={styles['atom-accordian']} ref={accordianRef}>
             {tabs.map((a, i) => (
-                <div className={`${styles['atom-accordian-tab']} xs-mb-12 md-mb-18`} id={`tab-${i}`}>
+                <div className={`${styles['atom-accordian-tab']} xs-mb-12 md-mb-18`} id={`tab-${i}`} key={a.headline}>
                     <div
                         className={`${styles['atom-accordian-tab-header']} color-black ${i === 0 ? 'open' : ''}`}
                         onClick={(e) => {

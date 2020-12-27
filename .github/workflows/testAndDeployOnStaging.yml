@@ -1,0 +1,46 @@
+name: Goodway deployment
+
+on:
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm run build
+    - run: npm test
+  deploy:
+    needs: test
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Deployment on the server
+      uses: appleboy/ssh-action@master
+      with:
+        host: 65.0.33.59
+        username: ubuntu
+        key: ${{ secrets.GoodwayDeployment }}
+        port: 22
+        script: |
+          cd /home/NodeJS/GoodwaySSRStaging/
+          rm -rf node_modules
+          rm -rf .next
+          git pull origin main
+          npm ci
+          npm run build
+          sudo supervisorctl restart goodwaySSRStaging

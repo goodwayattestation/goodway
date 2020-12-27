@@ -24,7 +24,7 @@ export default function Home(props) {
 
 	return (
 		<Layout
-			title="Attestation Service in Bangalore - Apostille Services in Banglore, Karnataka"
+			title="Attestation Service in Bangalore - Apostille Services in Banglore, Karnataka, India"
 			description="Goodway Attestation & Apostille Service in Bangalore for Birth & Marriage Certificate, Education & Commercial Documents. For Quick Service Call:9148889666"
 			keywords="Certificate Attestation Agency in Bangalore, attestation services near me, hrd attestation for nurses in bangalore, uae attestation services in bangalore, hrd attestation bangalore karnataka, apostille services in bangalore, Apostille Certification Services in Bangalore, Apostille Attestation in Bangalore, apostille attestation fee bangalore"
 			canonical="https://www.goodwayattestation.com/"
@@ -127,12 +127,12 @@ export default function Home(props) {
 								btnText="Know More"
 								img="./images/video.jpg"
 							>
-								<p className="xs-mt-12">
+								<div className="xs-mt-12">
 									<h3>
 										Goodway Attestation is a pioneer company for Certificate
 										Attestation & Apostille.
 									</h3>
-								</p>
+								</div>
 								<p className="xs-mt-12">
 									The company is providing this service of attestation of
 									certificates for last 15 years. It is managed by professionals

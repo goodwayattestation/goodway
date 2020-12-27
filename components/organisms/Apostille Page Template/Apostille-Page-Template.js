@@ -24,7 +24,7 @@ function ApostillePageTemplate(props) {
                     <div className="col-xs-12 col-md-4 hidden-sm-down">
                         <table className={styles['organism-apostille-page_sidebar']}>
                             {Content.sidebar.map((a, i) => (
-                                <tr>
+                                <tr key={a.text}>
                                     {a.headline ? (
                                         <th>
                                             <b className="color-black">{a.text}</b>
