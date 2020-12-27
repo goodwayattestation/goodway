@@ -22,7 +22,7 @@ function Attestation() {
                         <div className="row xs-mt-12 md-mt-30">
                             <div className="col-xs-12">
                                 <div
-                                    className="route-attestation-container_headerImage"
+                                    className={styles['route-attestation-container_headerImage']}
                                     style={{ backgroundImage: `url('./images/3.jpg')` }}
                                 ></div>
                                 <h2 className="t-a:c xs-pl-6 xs-pr-6">Attestation Services in Bengaluru</h2>
@@ -30,7 +30,7 @@ function Attestation() {
                         </div>
 
                         <div className="row xs-mt-12 md-mt-24">
-                            <div className="col-xs-12 route-attestation-container_editorial">
+                            <div className={`${styles['route-attestation-container_editorial']} col-xs-12`}>
                                 <Editorial
                                     headline="Certificate Attestation In India"
                                     headlinePosition="center"
