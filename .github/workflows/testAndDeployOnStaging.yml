@@ -1,13 +1,15 @@
 name: Goodway deployment
 
 on:
-  pull_request:
+  push:
     branches: [ main ]
 
   workflow_dispatch:
 
 jobs:
   test:
+    if: github.event.pull_request.merged == 'true'
+
     runs-on: ubuntu-latest
     
     strategy:
@@ -24,6 +26,8 @@ jobs:
     - run: npm run build
     - run: npm test
   deploy:
+    if: github.event.pull_request.merged == 'true'
+
     needs: test
 
     runs-on: ubuntu-latest
