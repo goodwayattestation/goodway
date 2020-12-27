@@ -18,7 +18,7 @@ function Footer(props) {
                         </h3>
                         <ul className="md-mt-12">
                             {Content.quickLinks.options.map((a, i) => (
-                                <li className="xs-mb-6" key={i}>
+                                <li className="xs-mb-6" key={a.text}>
                                     <a href={a.link} className="color-white">
                                         {a.text}
                                     </a>
@@ -31,7 +31,7 @@ function Footer(props) {
                         </h3>
                         <ul className="md-mt-12">
                             {Content.ourServices.options.map((a, i) => (
-                                <li className="xs-mb-6" key={i}>
+                                <li className="xs-mb-6" key={a.text}>
                                     <a href={a.link} className="color-white">
                                         {a.text}
                                     </a>
@@ -45,7 +45,7 @@ function Footer(props) {
                         </h3>
                         <ul className="md-mt-12">
                             {Content.certificateAttestations.options.map((a, i) => (
-                                <li className="xs-mb-6" key={i}>
+                                <li className="xs-mb-6" key={a.text}>
                                     <a href={a.link} className="color-white">
                                         {a.text}
                                     </a>
@@ -59,7 +59,7 @@ function Footer(props) {
                         </h3>
                         <ul className="md-mt-12">
                             {Content.certificateApostille.options.map((a, i) => (
-                                <li className="xs-mb-6" key={i}>
+                                <li className="xs-mb-6" key={a.text}>
                                     <a href={a.link} className="color-white">
                                         {a.text}
                                     </a>
