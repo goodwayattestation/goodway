@@ -22,7 +22,7 @@ function Apostille() {
                         <div className="row xs-mt-12 md-mt-30">
                             <div className="col-xs-12">
                                 <div
-                                    className="route-apostille-container_headerImage"
+                                    className={styles['route-apostille-container_headerImage']}
                                     style={{ backgroundImage: `url('./images/3.jpg')` }}
                                 ></div>
                                 <h2 className="t-a:c xs-pl-6 xs-pr-6">Apostille Services in Bengaluru</h2>
@@ -30,7 +30,7 @@ function Apostille() {
                         </div>
 
                         <div className="row xs-mt-12 md-mt-24">
-                            <div className="col-xs-12 route-apostille-container_editorial">
+                            <div className={`${styles['route-apostille-container_editorial']} col-xs-12`}>
                                 <Editorial
                                     headline="Apostille"
                                     headlinePosition="center"
