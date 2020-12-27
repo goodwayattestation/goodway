@@ -45,4 +45,5 @@ jobs:
           npm run build
           sudo supervisorctl stop goodwaySSRStaging
           sleep 10
+          sudo kill -9 $(sudo lsof -t -i:3000)
           sudo supervisorctl start goodwaySSRStaging
