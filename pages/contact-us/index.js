@@ -28,7 +28,7 @@ function ContactUs() {
                             </div>
                         </div>
                         <div>
-                            <h2 className="xs-mt-12 md-mt-24 t-a:c">Our Branches</h2>
+                            <h2 className="xs-mt-24 md-mt-24 t-a:c">Our Branches</h2>
                         </div>
                         <div className="row xs-mt-12 md-mt-24">
                             <div className="col-md-4 col-xs-12 xs-mt-12">

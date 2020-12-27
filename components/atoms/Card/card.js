@@ -10,6 +10,7 @@ function Card(props) {
             className={`${styles['atom-card']} xs-mt-12 xs-mb-12 md-mt-24 md-mt-24`}
         >
             <div
+                style={{ height: '100%' }}
                 className={`${props.url ? '' : 'none'}`}
                 onClick={() => {
                     location.href = props.url;
@@ -23,7 +24,9 @@ function Card(props) {
                         itemType="https://gw.srishamanth.com/CardContent"
                         className={styles['atom-card-image-float']}
                     >
-                        <h3 itemProp="Headline">{props.headline}</h3>
+                        <h3 style={{ padding: '10px' }} itemProp="Headline">
+                            {props.headline}
+                        </h3>
                         {props.additionalInfo && <p itemProp="AdditionalInfo">{props.additionalInfo}</p>}
                         {props.buttonText && (
                             <Button
