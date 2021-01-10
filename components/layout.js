@@ -55,6 +55,16 @@ export default function Layout(props) {
                 <meta property="og:image:alt" content="GoodWay Logo" />
                 <meta property="og:description" content="GoodWay Attestation & Apostille one stop solution" />
                 <meta property="og:locale" content="en_IN" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144894584-1"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+  
+                  gtag('config', 'UA-144894584-1');`,
+                    }}
+                />
             </Head>
             {props.children}
             <div className="h1">
