@@ -85,14 +85,6 @@
         "headline": "Certificate Apostille",
         "options": [
             {
-                "text": "UK Issued Documents",
-                "link": "/uk-apostille-attestaion-bangalore"
-            },
-            {
-                "text": "USA Issued Documents",
-                "link": "/usa-apostille-attestaion-bangalore"
-            },
-            {
                 "text": "Apostille for Oman",
                 "link": "/oman-apostille-attestaion-bangalore"
             },
@@ -127,6 +119,14 @@
             {
                 "text": "Apostille for Netherlands",
                 "link": "/netherlands-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "UK Issued Documents",
+                "link": "/uk-apostille-attestaion-bangalore"
+            },
+            {
+                "text": "USA Issued Documents",
+                "link": "/usa-apostille-attestaion-bangalore"
             }
         ]
     },

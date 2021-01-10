@@ -13,7 +13,7 @@ function MarqueeBar(props) {
                         Size={'h3'}
                         NumberOfOptions={'1'}
                         Index0={
-                            'An ISO 9001:2015 certified company and approved by Government Embassies. Our offices in Delhi, Hyderabad, Chennai, UAE, Oman'
+                            'An ISO 9001:2015 certified company and approved by Government Embassies. Our offices in Bengaluru, Delhi, Hyderabad, Chennai, UAE, Oman'
                         }
                         TimeToCross={'20000'}
                         TimeToChange={'0'}
