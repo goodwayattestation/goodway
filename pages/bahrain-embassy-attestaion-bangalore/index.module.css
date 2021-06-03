@@ -1,13 +1,47 @@
 .routes-bahrain-attestation_content p,
 .routes-bahrain-attestation_content ul {
-  font-size: 16px;
+  font-size: 18px;
 }
 .routes-bahrain-attestation_content ul {
+  font-size: 18px;
   list-style-type: disc;
-  line-height: 1.7;
-  margin-left: 12px;
+  margin-left: 18px;
+  line-height: 1.9;
+}
+.routes-bahrain-attestation_content a {
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+.routes-bahrain-attestation_content a:link {
+  color: #265301;
+}
+.routes-bahrain-attestation_content a:visited {
+  color: #437a16;
+}
+.routes-bahrain-attestation_content a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+.routes-bahrain-attestation_content a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+.routes-bahrain-attestation_content a:active {
+  background: #265301;
+  color: #cdfeaa;
 }
 @media only screen and (max-width: 1023px) {
+  .routes-bahrain-attestation .routes-bahrain-attestation_content {
+    margin-top: 18px;
+  }
+  .routes-bahrain-attestation .routes-bahrain-attestation_content p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .routes-bahrain-attestation .routes-bahrain-attestation_content ul {
+    font-size: 14px;
+  }
   .routes-bahrain-attestation .educationalCertificateAttestation {
     margin-top: 18px;
   }

@@ -6,12 +6,63 @@
   list-style-type: disc;
   line-height: 1.7;
   margin-left: 12px;
+  padding-left: 4px;
 }
 .routes-mofa-attestation_content h3 {
   margin-top: 30px;
 }
+.routes-mofa-attestation-new-content {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+}
+.routes-mofa-attestation-new-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+}
+.routes-mofa-attestation-new-content ul {
+  font-size: 18px;
+  list-style-type: disc;
+  margin-left: 18px;
+  line-height: 1.9;
+}
+.routes-mofa-attestation-new-content a {
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+.routes-mofa-attestation-new-content a:link {
+  color: #265301;
+}
+.routes-mofa-attestation-new-content a:visited {
+  color: #437a16;
+}
+.routes-mofa-attestation-new-content a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+.routes-mofa-attestation-new-content a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+.routes-mofa-attestation-new-content a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
 @media only screen and (max-width: 1023px) {
   .routes-mofa-attestation .educational {
     margin-top: 18px;
+  }
+  .routes-mofa-attestation-new-content {
+    padding: 0;
+  }
+  .routes-mofa-attestation-new-content p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .routes-mofa-attestation-new-content ul {
+    font-size: 14px;
   }
 }

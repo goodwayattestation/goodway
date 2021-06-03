@@ -5,100 +5,169 @@ import Layout from '../../components/layout';
 import styles from './index.module.css';
 
 function UKDocuments() {
-    return (
-        <Layout
-            title="UK Apostille Service in Bangalore - UK Apostille Service Near Me"
-            description="UK Certificate Apostille Attestation Service in Bangalore for Birth & Marriage Certificate, Education & Commercial Documents. For Quick Service Call:9148889666"
-            keywords="UK Birth Certificate Apostille, UK Apostille, Documents Apostille UK Stamp, Certificate Attestation for UK, mea attestation fees"
-            canonical="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore"
-            pageHeader="UK Apostille Service in Bangalore"
-        >
-            <div className={styles['routes-uk-documents']}>
-                <NavigationBar showTrackStatusBtn={true} />
-                <ApostillePageTemplate headline="Apostille Service For UK In Bengaluru">
-                    <div className={styles['routes-uk-documents_content']}>
-                        <p className="xs-mt-12 md-mt-18">
-                            <h2>UK Certificate Apostille</h2>
-                        </p>
+	return (
+		<Layout
+			title="UK Apostille Service in Bangalore - UK Apostille Service Near Me"
+			description="UK Certificate Apostille Attestation Service in Bangalore for Birth & Marriage Certificate, Education & Commercial Documents. For Quick Service Call:9148889666"
+			keywords="UK Birth Certificate Apostille, UK Apostille, Documents Apostille UK Stamp, Certificate Attestation for UK, mea attestation fees"
+			canonical="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore"
+			pageHeader="UK Apostille Service in Bangalore"
+		>
+			<div className={styles['routes-uk-documents']}>
+				<NavigationBar showTrackStatusBtn={true} />
+				<ApostillePageTemplate headline="Apostille Service For UK In Bengaluru">
+					<div className={styles['routes-uk-documents_content']}>
+						<p>
+							<h2>UK Apostille</h2>
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            This assistance provides an Apostille Closure to be involved with a UK-issued documents.
-                            Choose this assistance to validate your information for use within an individual country of
-                            the Hague Conference. The Apostille assistance is provided to validate information for use
-                            overseas. Simply complete the transaction type and provide your information to us to be made
-                            lawful. We can legalize exclusive certifications of UK academic qualifications. There are
-                            two types of certificate documents like personal certificates and business certificates. The
-                            MEA Apostille department will do the legalization of your documents before that you need to
-                            do Notary attestation, HRD attestation /SDM/ attestation.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							In India, Apostille for the UK is an indirect process & is
+							generally proceeds with the help of{' '}
+							<a href="https://www.goodwayattestation.com/">
+								Apostille services in India
+							</a>
+							. Authorization for UK is the procedure of validating your
+							documents to acquire a visa or expand your business in UK.
+							Therefore, it is a crucial step that you need to perform if you
+							have plans to travel to UK. It can be easier to approach the
+							validating process through{' '}
+							<a href="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore">
+								Apostille services for UK
+							</a>{' '}
+							as it can assist in getting the process done fast without any
+							hassle.
+						</p>
+						<p className="xs-mt-12 md-mt-18">
+							Goodwayattestation is one of the eminent agencies that provide the
+							best quality{' '}
+							<a href="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore">
+								UK Apostille services in Bangalore
+							</a>{' '}
+							& will complete the entire procedure of your{' '}
+							<a href="https://www.goodwayattestation.com/certificate-attestation-bangalore">
+								document attestation
+							</a>{' '}
+							with genuinity. Our agency is approved by Ministries & embassies
+							in India as well as abroad.
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            <h3>Personal Certificates for legalization</h3>
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							<b>Requirement of apostille for UK:</b>
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            There are lots of personal documents like academic certificates , court papers, birth,
-                            marriage and death certificates. Another common document is a National Identification
-                            Service, Disclosure Scotland or other similar criminal record check document, these are
-                            often required by people working outside of the UK. Certificates of Good Standing - Signed
-                            by an official of Companies House , UK Civil Partnership Certificates are also coming under
-                            this category certificate attestation apostille.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							Authentication for the UK has its own prerequisite in the visa
+							procedure & expansion of the business in UK. Apostille is required
+							as it is among the countries that are a part of the Hague
+							Convention which is known as the Apostille Convention.
+						</p>
+						<p className="xs-mt-12 md-mt-18">
+							There are policies of UK that need documents with MEA sticker to
+							allow a visitor to stay or perform business in their country. It
+							is a part of security that indicates the trustworthiness of the
+							documents. Therefore, certification of documents becomes a
+							necessity for these reasons.
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            <h3>Business Certificates for Legalization/apostille</h3>
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							<b>Total time-span to get Document Apostille:</b>
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            Business documents include certificates of incorporation and memorandum and articles of
-                            association. These sorts of documents often require an attestation to prove a UK company
-                            exists when taking their business overseas. Certificates of Incorporation - Signed by an
-                            official of Companies House , Memorandum and Articles of Association - Signed by an official
-                            of Companies House , Notarial Acts etc., come under this category of certificate attestation
-                            apostille.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							The total time period required for{' '}
+							<a href="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore">
+								Apostille services for UK
+							</a>{' '}
+							depends on several aspects such as which state the certificate was
+							issued from, or the types of documents, or the organization you
+							require it from. Usually, it will take around 15 days to a month
+							to accomplish the whole process of{' '}
+							<a href="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore">
+								Apostille services in Bangalore for UK
+							</a>
+							.
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            Documents for legalization must be UK documents, and although they can be copied, they still
-                            must contain an original signature, seal or stamp from the relevant UK public official whom
-                            the documents are coming from. Some copies of original documents often have to be certified
-                            by a Solicitor or Notary Public.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							<b>UK Apostille service in Bangalore for certificates</b>
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            United Kingdom, with its educational institutions and universities of international repute,
-                            including Cambridge and Oxford, Get your educational, experience certificates and legal
-                            documents apostilled by the High Commission of the United Kingdom, through Goodway
-                            Attestation, Bengaluru. You need not look beyond us since our professionals will do the job
-                            for you at nominal fees.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							The authentication of the documents is the procedure of obtaining
+							the MEA sticker on the document. It is a part of the authorizing
+							of the required certificate authentication that indicates the
+							trustworthiness of your documents & your intent of traveling the
+							UK.
+						</p>
+						<p className="xs-mt-12 md-mt-18">
+							{' '}
+							<a href="https://www.goodwayattestation.com/certificate-apostille-bangalore">
+								Apostille documents in India
+							</a>{' '}
+							are implemented by the{' '}
+							<a href="https://www.goodwayattestation.com/mea-attestaion-apostille-services">
+								MEA (Ministry of External Affairs)
+							</a>{' '}
+							which is a department of the Indian government that operates
+							foreign affairs. Ministry of External Affairs is a central
+							government attestation that is a part of the procedure where it
+							provides an MEA sticker.
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            Great Britain, also called United Kingdom is one of the most advanced economies of the
-                            world. Its history and cultural heritage makes it one of the popular tourist destinations
-                            for travellers from across the globe. As of now, the country is in negotiations for exiting
-                            from the European Union.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							<b>Why choose Goodwayattestation?</b>
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            United Kingdom, with its educational institutions and universities of international repute,
-                            including Cambridge and Oxford.
-                        </p>
+						<p className="xs-mt-12 md-mt-18">
+							Goodwayattestation provides the best service of{' '}
+							<a href="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore">
+								UK Apostille service in Bangalore for certificates
+							</a>{' '}
+							that guarantees your comfort & enables you to experience our
+							hassle-free pick-up and drop facilities.
+						</p>
 
-                        <p className="xs-mt-12 md-mt-18">
-                            Get your{' '}
-                            <b>
-                                educational, experience certificates and legal documents apostilled by the High
-                                Commission of the United Kingdom,
-                            </b>{' '}
-                            through Goodway Attestation, Bengaluru. You need not look beyond us since our professionals
-                            will do the job for you at nominal fees
-                        </p>
-                    </div>
-                </ApostillePageTemplate>
-            </div>
-        </Layout>
-    );
+						<p className="xs-mt-12 xs-mb-6 md-mt-18">
+							<ul>
+								<li className="xs-mb-6">
+									We assist you to get your{' '}
+									<a href="https://www.goodwayattestation.com/uk-apostille-attestaion-bangalore">
+										UK Apostille services in Bangalore
+									</a>{' '}
+									in time without any hassle.
+								</li>
+								<li className="xs-mb-6">
+									Our team of experts will guide & assist you throughout the
+									certificate attestation procedure.
+								</li>
+								<li className="xs-mb-6">
+									We are working online round the clock to take your inquiries &
+									provide the best solutions.
+								</li>
+								<li className="xs-mb-6">
+									We also collect documents from your location & deliver them
+									back to you once the process is done.
+								</li>
+								<li className="xs-mb-6">
+									We maintain transparency of the progress with our clients &
+									there are no hidden costs.
+								</li>
+								<li className="xs-mb-6">
+									Our services are trustworthy & verified & we provide fast
+									legalization for your documents.
+								</li>
+								<li className="xs-mb-6">
+									Our services across India: Bangalore, Kochi, Chennai,
+									Hyderabad, Mumbai, Visakhapatnam, Coimbatore, Pune.
+								</li>
+							</ul>
+						</p>
+					</div>
+				</ApostillePageTemplate>
+			</div>
+		</Layout>
+	);
 }
 
 export default UKDocuments;
