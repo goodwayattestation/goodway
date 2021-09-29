@@ -64,22 +64,42 @@ export default function Layout(props) {
 					content="GoodWay Attestation & Apostille one stop solution"
 				/>
 				<meta property="og:locale" content="en_IN" />
-			
-				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144894584-1"></script>
-				
-				<script
-				dangerouslySetInnerHTML={{
-						__html: `window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
 
-				gtag('config', 'UA-144894584-1');`,
-				}}
+				<script
+					async
+					src="https://www.googletagmanager.com/gtag/js?id=AW-803214824"
+				></script>
+
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+
+					gtag('config', 'AW-803214824');`,
+					}}
 				/>
 
 				<script
 					dangerouslySetInnerHTML={{
-						__html: `gtag('event', 'conversion', {'send_to': 'AW-803214824/_pruCKjk2v8BEOirgP8C'});`,
+						__html: `gtag('event', 'conversion', {'send_to': 'AW-803214824/IdoACPu_yvcCEOirgP8C'});`,
+					}}
+				/>
+
+				<script
+					dangerouslySetInnerHTML={{
+						__html: `function gtag_report_conversion(url) {
+					var callback = function () {
+						if (typeof(url) != 'undefined') {
+						window.location = url;
+						}
+					};
+					gtag('event', 'conversion', {
+						'send_to': 'AW-803214824/IdoACPu_yvcCEOirgP8C',
+						'event_callback': callback
+					});
+					return false;
+					}`,
 					}}
 				/>
 			</Head>
