@@ -362,6 +362,11 @@ function BahrainAttestation() {
 								</li>
 							</ul>
 						</p>
+						<div className="col-xs-12">
+							<div className="row xs-mt-30 md-mt-24 box2" >
+								<p>bahrain attestation, bahrain embassy attestation fees, ministry of foreign affairs bahrain attestation, indian embassy bahrain attestation, mofa attestation bahrain, marriage certificate attestation for bahrain, degree attestation for bahrain, indian embassy bahrain certificate attestation, bahrain embassy attestation, bahrain embassy attestation in india</p>
+							</div>
+						</div>
 					</div>
 				</AttestationTemplate>
 			</div>

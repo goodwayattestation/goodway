@@ -214,6 +214,11 @@ function Attestation() {
 							</li>
 						</ul>
 					</p>
+					<div className="col-xs-12">
+						<div className="row xs-mt-30 md-mt-24 box2" >
+							<p>attestation services, hrd attestation karnataka, mea certificate attestation, hrd attestation bangalore, degree certificate attestation in bangalore, hrd attestation near me, marriage certificate attestation in india, hrd attestation karnataka, document attestation bangalore, marriage certificate attestation, hrd attestation in bangalore, vtu degree certificate attestation, mea attestation, embassy attestation services, certificate attestation in bangalore, attestation services in bangalore, document attestation services near me, mea attestation fees, attestation services near me, attestation office near me, marriage certificate attestation in bangalore, birth certificate attestation in bangalore, certificate attestation for saudi arabia in bangalore, norka certificate attestation</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</Layout>

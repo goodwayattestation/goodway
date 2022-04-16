@@ -158,6 +158,11 @@ function OmanApostille() {
 								</li>
 							</ul>
 						</p>
+						<div className="col-xs-12">
+							<div className="row xs-mt-30 md-mt-24 box2" >
+								<p>oman attestation, oman embassy attestation, degree certificate attestation for oman, indian embassy oman attestation, ministry of foreign affairs oman attestation, degree certificate attestation for oman visa, apostille attestation for oman in india, marriage certificate attestation for oman family visa, mofa attestation oman, indian embassy muscat attestation, degree attestation for oman, birth certificate attestation required for oman visa, marriage certificate apostille for oman, oman embassy document attestation</p>
+							</div>
+						</div>
 					</div>
 				</ApostillePageTemplate>
 			</div>

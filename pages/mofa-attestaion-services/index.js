@@ -295,6 +295,11 @@ function MOFAAttestation() {
 							</li>
 						</ul>
 					</p>
+					<div className="col-xs-12">
+						<div className="row xs-mt-30 md-mt-24 box2" >
+							<p>degree attestation from mofa, mofa attestation for Saudi, mofa certificate attestation, mofa degree attestation, mofa documents attestation, mofa attestation for qatar, mofa marriage certificate attestation, mofa birth certificate attestation, mofa attestation, mofa attestation for Kuwait, mofa attestation fees, mofa attestation near me, mofa attestation for Bahrain, mofa attestation for uae</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</Layout>

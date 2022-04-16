@@ -344,6 +344,11 @@ function UAEAttestation() {
 								</li>
 							</ul>
 						</p>
+						<div className="col-xs-12">
+							<div className="row xs-mt-30 md-mt-24 box2" >
+								<p>degree attestation for uae, uae mofa attestation, certificate attestation for uae in bangalore, document attestation for uae, indian degree certificate attestation charges in uae, certificate attestation for uae, degree certificate attestation for oman, birth certificate attestation for uae residence visa in india, uae marriage certificate attestation, certificate attestation for dubai, mofa attestation for uae, attestation of certificates for uae, education certificate attestation, attest educational certificate uae, document attestation for uae in india, uae attestation in bangalore, certificate attestation for uae in india, uae embassy attestation bangalore, uae certificate attestation services, uae attestation, uae document attestation, dubai certificate attestation, uae attestation services in bangalore, degree certificate attestation for uae, attestation of birth certificate for uae visa, uae embassy attestation in bangalore, degree certificate attestation for uae price, uae attestation services, uae embassy attestation in india, degree certificate attestation for uae in bangalore, uae embassy attestation</p>
+							</div>
+						</div>
 					</div>
 				</AttestationTemplate>
 			</div>

@@ -239,6 +239,11 @@ function HRDDepartment(props) {
 								</li>
 							</ul>
 						</p>
+						<div className="col-xs-12">
+							<div className="row xs-mt-30 md-mt-24 box2" >
+								<p>hrd attestation, hrd attestation of degree certificate, hrd degree attestation, hrd attestation documents required, hrd documents attestation, vtu hrd attestation, hrd attestation online, home department attestation bangalore, hrd attestation belgaum, hrd certificate attestation, hrd attestation india, hrd and mea attestation, karnataka hrd attestation, hrd of degree certificate, hrd attestation vtu, documents required for hrd attestation, hrd attestation services</p>
+							</div>
+						</div>
 					</div>
 				</VisastampingTemplate>
 			</div>

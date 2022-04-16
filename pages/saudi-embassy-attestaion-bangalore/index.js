@@ -350,6 +350,11 @@ function SaudiAttestation() {
 								</li>
 							</ul>
 						</p>
+						<div className="col-xs-12">
+							<div className="row xs-mt-30 md-mt-24 box2" >
+								<p>saudi attestation, saudi embassy attestation, saudi culture attestation, diploma certificate attestation for saudi, marriage certificate attestation for saudi arabia, hrd attestation for saudi, saudi embassy degree attestation, saudi embassy attestation charges, degree attestation from saudi embassy in india, saudi degree attestation, degree attestation for saudi arabia, degree certificate attestation for saudi arabia, saudi embassy attestation fees in india, saudi embassy attestation fees, saudi certificate attestation, saudi arabia attestation, certificate attestation for saudi arabia, mofa fees saudi arabia</p>
+							</div>
+						</div>
 					</div>
 				</AttestationTemplate>
 			</div>

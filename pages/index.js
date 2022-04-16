@@ -355,6 +355,12 @@ export default function Home(props) {
 							></iframe>
 						</div>
 					</div>
+					<div className={`row xs-mt-30 md-mt-24 box2 ${styles['route-home-features']}`} >
+						<div className="col-xs-12">
+							<p>attestation services, hrd attestation karnataka, mea certificate attestation, hrd attestation bangalore, degree certificate attestation in bangalore, hrd attestation near me, marriage certificate attestation in india, hrd attestation karnataka, document attestation bangalore, marriage certificate attestation, hrd attestation in bangalore, vtu degree certificate attestation, mea attestation, embassy attestation services, certificate attestation in bangalore, attestation services in bangalore, document attestation services near me, mea attestation fees, attestation services near me, attestation office near me, marriage certificate attestation in bangalore, birth certificate attestation in bangalore, certificate attestation for saudi arabia in bangalore, norka certificate attestation</p>
+							<p>apostille my birth certificate, apostille marriage certificate india, apostille documents cost, marriage certificate apostille, birth certificate apostille, mea attestation in bangalore, birth certificate apostille india cost of apostille in india, apostille services cost, apostille marriage certificate, apostille services in bangalore, birth certificate apostille for netherlands, apostille services near me, degree certificate attestation in india, apostille certification near me, mea apostille services in bangalore, apostille of marriage certificate, education certificate attestation, us birth certificate apostille in india, certificate apostille in bangalore, apostille us birth certificate in india, apostille marriage certificate bangalore, apostille birth certificate, apostille attestation fee, mea attestation of degree certificate, apostille birth certificate india, apostille attestation in bangalore, apostille wedding certificate, apostille near me, mea apostille, apostille services bangalore, apostille indian birth certificate, apostille agency near me, best apostille services in bangalore, apostille in bangalore, marriage certificate apostille bangalore</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</Layout>
