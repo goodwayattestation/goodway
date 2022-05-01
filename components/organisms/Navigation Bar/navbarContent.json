@@ -199,6 +199,22 @@
 						"link": "/mofa-attestaion-services"
 					},
 					{
+						"text": "Birth Certificate Attestation",
+						"link": "/birth-certificate-attestation-services-in-bangalore"
+					},
+					{
+						"text": "Birth Certificate Apostille",
+						"link": "/birth-certificate-apostille-services-in-bangalore"
+					},
+					{
+						"text": "Marriage Certificate Apostille",
+						"link": "/marriage-certificate-apostille-services-in-bangalore"
+					},
+					{
+						"text": "Marriage Certificate Attestation",
+						"link": "/marriage-certificate-attestation-services-in-bangalore"
+					},
+					{
 						"text": "Translation",
 						"link": "/"
 					}
@@ -221,6 +237,46 @@
 				"icon": "",
 				"text": "MOFA Attestation",
 				"link": "/mofa-attestaion-services",
+				"classes": 0,
+				"dropdown": [],
+				"mobile": true,
+				"desktop": false,
+				"hideWhenSticky": true
+			},
+			{
+				"icon": "",
+				"text": "Birth Certificate Attestation",
+				"link": "/birth-certificate-attestation-services-in-bangalore",
+				"classes": 0,
+				"dropdown": [],
+				"mobile": true,
+				"desktop": false,
+				"hideWhenSticky": true
+			},
+			{
+				"icon": "",
+				"text": "Birth Certificate Apostille",
+				"link": "/birth-certificate-apostille-services-in-bangalore",
+				"classes": 0,
+				"dropdown": [],
+				"mobile": true,
+				"desktop": false,
+				"hideWhenSticky": true
+			},
+			{
+				"icon": "",
+				"text": "Marriage Certificate Apostille",
+				"link": "/marriage-certificate-apostille-services-in-bangalore",
+				"classes": 0,
+				"dropdown": [],
+				"mobile": true,
+				"desktop": false,
+				"hideWhenSticky": true
+			},
+			{
+				"icon": "",
+				"text": "Marriage Certificate Attestation",
+				"link": "/marriage-certificate-attestation-services-in-bangalore",
 				"classes": 0,
 				"dropdown": [],
 				"mobile": true,

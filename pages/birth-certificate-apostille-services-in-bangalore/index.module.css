@@ -1,0 +1,65 @@
+.route-attestation-container {
+  width: 100%;
+}
+.route-attestation-container_headerImage {
+  height: 230px;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(0.55);
+}
+.route-attestation-container_headerImage + h2 {
+  position: relative;
+  top: -135px;
+  color: white;
+  height: 0px;
+}
+.route-attestation-container_editorial .organism-editorial-body p {
+  font-size: 17px;
+}
+.route-attestation-content {
+  width: 85%;
+  margin-left: 7%;
+}
+.route-attestation-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+}
+.route-attestation-content ul {
+  font-size: 18px;
+  list-style-type: disc;
+  margin-left: 18px;
+  line-height: 1.9;
+}
+.route-attestation-content a {
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+.route-attestation-content a:link {
+  color: #265301;
+}
+.route-attestation-content a:visited {
+  color: #437a16;
+}
+.route-attestation-content a:focus {
+  border-bottom: 1px solid;
+  background: #bae498;
+}
+.route-attestation-content a:hover {
+  border-bottom: 1px solid;
+  background: #cdfeaa;
+}
+.route-attestation-content a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+@media only screen and (max-width: 1023px) {
+  .route-attestation .route-attestation-content p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .route-attestation .route-attestation-content ul {
+    font-size: 14px;
+  }
+}
