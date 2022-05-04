@@ -4,8 +4,11 @@ import AttestationTemplate from "../../components/organisms/Attestation Template
 import Content from "./content.json";
 import Layout from "../../components/layout";
 import styles from "./index.module.css";
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function NigeriaAttestation() {
+  const router = useRouter()
   return (
     <Layout
       title="Attestation Service for Nigeria in Bangalore - Nigeria Certificate Attestation Near Me"
@@ -17,6 +20,13 @@ function NigeriaAttestation() {
       <div className={styles["routes-nigeria-attestation"]}>
         <NavigationBar showTrackStatusBtn={true} />
         <AttestationTemplate headline="Attestation Service For Nigeria In Bengaluru" tabs={Content}>
+        <div className='xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
           <div className={styles["routes-nigeria-attestation_content"]}>
             <div className="row center-xs xs-mt-12 md-mt-54">
               <div className="col-xs-12">

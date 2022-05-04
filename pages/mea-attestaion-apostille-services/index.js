@@ -4,8 +4,11 @@ import VisastampingTemplate from '../../components/organisms/Visa Stamping Templ
 import Editorial from '../../components/organisms/Editorial/editorial.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function MEAAttestation() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="MEA Attestation in Bangalore - MEA Apostille Stamping Services for Degree, Marriage, Birth & Commercial Documents"
@@ -17,6 +20,13 @@ function MEAAttestation() {
 			<div className={styles['routes-mea-attestation']}>
 				<NavigationBar showTrackStatusBtn={true} />
 				<VisastampingTemplate headline="MEA Attestation Services in Bengaluru">
+				<div className='container-fluid xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 					<div className={styles['routes-mea-attestation_content']}>
 						<div className="row center-xs xs-mt-12 md-mt-54">
 							<div className="col-xs-12">

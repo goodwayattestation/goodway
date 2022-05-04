@@ -3,8 +3,11 @@ import NavigationBar from '../../components/organisms/Navigation Bar/navigation-
 import ApostillePageTemplate from '../../components/organisms/Apostille Page Template/Apostille-Page-Template.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function AustraliaApostille() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="GoodWay Attestation - One stop solution for all your attestation & apostille, Banglaore, Karnataka, India"
@@ -16,6 +19,13 @@ function AustraliaApostille() {
 			<div className={styles['routes-australia-apostille']}>
 				<NavigationBar showTrackStatusBtn={true} />
 				<ApostillePageTemplate headline="Australia Apostille services in Bangalore">
+				<div className='xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 					<div className={styles['routes-australia-apostille_content']}>
 						<p>
 							<h2>Australia Apostille</h2>

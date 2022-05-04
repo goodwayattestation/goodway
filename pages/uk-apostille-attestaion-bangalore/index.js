@@ -3,8 +3,11 @@ import NavigationBar from '../../components/organisms/Navigation Bar/navigation-
 import ApostillePageTemplate from '../../components/organisms/Apostille Page Template/Apostille-Page-Template.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function UKDocuments() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="UK Apostille Service in Bangalore - UK Apostille Service Near Me"
@@ -16,6 +19,13 @@ function UKDocuments() {
 			<div className={styles['routes-uk-documents']}>
 				<NavigationBar showTrackStatusBtn={true} />
 				<ApostillePageTemplate headline="Apostille Service For UK In Bengaluru">
+				<div className='xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 					<div className={styles['routes-uk-documents_content']}>
 						<p>
 							<h2>UK Apostille</h2>

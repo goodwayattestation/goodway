@@ -3,8 +3,11 @@ import NavigationBar from '../../components/organisms/Navigation Bar/navigation-
 import VisastampingTemplate from '../../components/organisms/Visa Stamping Template/visastamping-template.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function SaudiVisastamping() {
+    const router = useRouter()
     return (
         <Layout
             title="Saudi Visa Stamping Services in Bangalore - Work Permit & Medical Visa Stamping India"
@@ -16,6 +19,13 @@ function SaudiVisastamping() {
             <div className={styles['routes-saudi-visastamping']}>
                 <NavigationBar showTrackStatusBtn={true} />
                 <VisastampingTemplate headline="Visa Stamping Service For Saudi In Bengaluru">
+                <div className='container-fluid xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
                     <div className={styles['routes-saudi-visastamping_content']}>
                         <div className="row center-xs xs-mt-12 md-mt-54">
                             <div className="col-xs-12">

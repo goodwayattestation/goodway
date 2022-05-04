@@ -4,8 +4,11 @@ import AttestationTemplate from '../../components/organisms/Attestation Template
 import Content from './content.json';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function VietnamAttestation() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="Attestation Service for Vietnam in Bangalore - Vietnam Certificate Attestation Near Me"
@@ -20,6 +23,13 @@ function VietnamAttestation() {
 					headline="Attestation Service For Vietnam In Bengaluru"
 					tabs={Content}
 				>
+				<div className='xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 					<div className={styles['routes-vietnam-attestation_content']}>
 						<div className="row center-xs xs-mt-12 md-mt-54">
 							<div className="col-xs-12">

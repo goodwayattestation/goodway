@@ -5,8 +5,11 @@ import Showcase from '../../components/organisms/Showcase/showcase.js';
 import content from './index.json';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function Attestation() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="Certificate Attestation in Bangalore for UAE, Qatar, Kuwait, Bahrain, Egypt"
@@ -31,6 +34,13 @@ function Attestation() {
 							</div>
 						</div>
 
+						<div className='container-fluid xs-mt-12 md-mt-18'>
+							<div className="row">
+								<div className="col-xs-12 col-md-4">
+									<Toc pathname={router.pathname} />
+								</div>
+							</div>
+						</div>
 						<div className="row xs-mt-12 md-mt-24">
 							<div
 								className={`${styles['route-attestation-container_editorial']} col-xs-12`}

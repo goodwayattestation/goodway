@@ -3,8 +3,11 @@ import NavigationBar from '../../components/organisms/Navigation Bar/navigation-
 import ApostillePageTemplate from '../../components/organisms/Apostille Page Template/Apostille-Page-Template.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function MexicoApostille() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="Mexico Apostille Service in Bangalore - Degree & Marriage Certificate Apostille in India"
@@ -16,6 +19,13 @@ function MexicoApostille() {
 			<div className={styles['routes-mexico-apostille']}>
 				<NavigationBar showTrackStatusBtn={true} />
 				<ApostillePageTemplate headline="Apostille Service For Mexico In Bengaluru">
+				<div className='xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 					<div className={styles['routes-mexico-apostille_content']}>
 						<p>
 							<h2>Mexico Apostille</h2>

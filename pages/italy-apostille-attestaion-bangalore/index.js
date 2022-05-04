@@ -3,8 +3,11 @@ import NavigationBar from '../../components/organisms/Navigation Bar/navigation-
 import ApostillePageTemplate from '../../components/organisms/Apostille Page Template/Apostille-Page-Template.js';
 import Layout from '../../components/layout';
 import styles from './index.module.css';
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function ItalyApostille() {
+	const router = useRouter()
 	return (
 		<Layout
 			title="Italy Apostille Service in Bangalore - Italy Apostille Service Near Me"
@@ -16,6 +19,13 @@ function ItalyApostille() {
 			<div className={styles['routes-italy-apostille']}>
 				<NavigationBar showTrackStatusBtn={true} />
 				<ApostillePageTemplate headline="Apostille Service For Italy In Bengaluru">
+				<div className='xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 					<div className={styles['routes-italy-apostille_content']}>
 						<p>
 							<h2>Italy Apostille</h2>

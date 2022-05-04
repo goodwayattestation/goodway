@@ -3,8 +3,11 @@ import NavigationBar from "../../components/organisms/Navigation Bar/navigation-
 import Editorial from "../../components/organisms/Editorial/editorial.js";
 import Layout from "../../components/layout";
 import styles from "./index.module.css";
+import Toc from '../../components/organisms/TOC/Toc.js';
+import { useRouter } from 'next/router'
 
 function BirthCertificateApostille() {
+  const router = useRouter()
   return (
     <Layout
       title="Birth Certificate Apostille Services in Bangalore, Apostille Services in India"
@@ -28,6 +31,14 @@ function BirthCertificateApostille() {
             </div>
           </div>
         </section>
+
+        <div className='container-fluid xs-mt-12 md-mt-18'>
+						<div className="row">
+							<div className="col-xs-12 col-md-4">
+								<Toc pathname={router.pathname} />
+							</div>
+						</div>
+					</div>
 
         <div className={styles["route-attestation-content"]}>
           <div className="row color-black xs-mt-36 md-mt-48">
