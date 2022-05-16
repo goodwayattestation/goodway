@@ -362,9 +362,6 @@ export default function Home(props) {
 							<p>apostille my birth certificate, apostille marriage certificate india, apostille documents cost, marriage certificate apostille, birth certificate apostille, mea attestation in bangalore, birth certificate apostille india cost of apostille in india, apostille services cost, apostille marriage certificate, apostille services in bangalore, birth certificate apostille for netherlands, apostille services near me, degree certificate attestation in india, apostille certification near me, mea apostille services in bangalore, apostille of marriage certificate, education certificate attestation, us birth certificate apostille in india, certificate apostille in bangalore, apostille us birth certificate in india, apostille marriage certificate bangalore, apostille birth certificate, apostille attestation fee, mea attestation of degree certificate, apostille birth certificate india, apostille attestation in bangalore, apostille wedding certificate, apostille near me, mea apostille, apostille services bangalore, apostille indian birth certificate, apostille agency near me, best apostille services in bangalore, apostille in bangalore, marriage certificate apostille bangalore</p>
 						</div>
 					</div>
-					<div>
-						<a href='https://wa.me/919148889666' target='_blank'><img src="images/whatsapp1.png" alt="whatsapp-icon" style={{ width: '60px', height: '60px', position: 'fixed', zIndex: 9, bottom: 10, left: '20px' }} /></a>
-					</div>
 				</div>
 			</div>
 		</Layout>
