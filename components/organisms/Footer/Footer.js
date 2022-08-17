@@ -129,13 +129,13 @@ function Footer(props) {
               </div>
 
               <div className={`${styles["organism-footer-social"]} xs-pl-36 xs-mt-36`}>
-                <a className="c:p d:i-block xs-mr-42" style={{backgroundImage: `url('./images/twitter.png')`}}></a>
+                <a href="https://twitter.com/Goodway_India" target="_blank" className="c:p d:i-block xs-mr-42" style={{backgroundImage: `url('./images/twitter.png')`}}></a>
 
-                <a className="c:p d:i-block xs-mr-42" style={{backgroundImage: `url('./images/facebook.png')`}}></a>
+                <a href="https://www.facebook.com/goodwayattestation" target="_blank" className="c:p d:i-block xs-mr-42" style={{backgroundImage: `url('./images/facebook.png')`}}></a>
 
-                <a className="c:p d:i-block xs-mr-42" style={{backgroundImage: `url('./images/linkedin.png')`}}></a>
+                <a href="https://www.linkedin.com/company/goodway-attestation/" target="_blank" className="c:p d:i-block xs-mr-42" style={{backgroundImage: `url('./images/linkedin.png')`}}></a>
 
-                <a className="c:p d:i-block" style={{backgroundImage: `url('./images/instagram.png')`}}></a>
+                <a href="https://www.instagram.com/goodwayattestation.india/" target="_blank" className="c:p d:i-block" style={{backgroundImage: `url('./images/instagram.png')`}}></a>
 
                 <a className="c:p d:n"></a>
               </div>
