@@ -21,22 +21,22 @@ function MarqueeBar(props) {
                     />
                 </div>
                 <div className="col-xs-12 col-md-4 center-xs end-md hidden-sm-down">
-                    <a
+                    <a href="https://twitter.com/Goodway_India" target="_blank"
                         className={`${styles['organism-marqueeBar-social']} c:p d:i-block xs-mr-6 md-mr-12`}
                         style={{ backgroundImage: `url('./images/twitter.png')` }}
                     ></a>
 
-                    <a
+                    <a href="https://www.facebook.com/goodwayattestation" target="_blank"
                         className={`${styles['organism-marqueeBar-social']} c:p d:i-block xs-mr-6 md-mr-12`}
                         style={{ backgroundImage: `url('./images/facebook.png')` }}
                     ></a>
 
-                    <a
+                    <a href="https://www.linkedin.com/company/goodway-attestation/" target="_blank"
                         className={`${styles['organism-marqueeBar-social']} c:p d:i-block xs-mr-6 md-mr-12`}
                         style={{ backgroundImage: `url('./images/linkedin.png')` }}
                     ></a>
 
-                    <a
+                    <a href="https://www.instagram.com/goodwayattestation.india/" target="_blank"
                         className={`${styles['organism-marqueeBar-social']} c:p d:i-block`}
                         style={{ backgroundImage: `url('./images/instagram.png')` }}
                     ></a>
