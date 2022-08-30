@@ -136,36 +136,39 @@ export default function Layout(props) {
 				/>
 
 				<script
+					type="application/ld+json"
 					dangerouslySetInnerHTML={{
-						__html: `{
-						"@context": "https://schema.org/",
-						"@type": "Product",
-						"name": "Goodway Attestation & Apostille Services in Bangalore",
-						"image": "https://www.goodwayattestation.com/images/logo.png",
-						"description": "All-in-One Document Attestation, Apostille & Other Services For Your Personal, Educational & Business Documents",
-						"brand": {
-							"@type": "Thing",
-							"name": "Goodway Attestation.Pvt.Ltd."
-						},"review": {
-							"@type": "Review",
-							"reviewRating": {
-								"@type": "Rating",
-								"ratingValue": "4.9",
-								"bestRating": "5"
+						__html: JSON.stringify({
+							"@context": "https://schema.org/",
+							"@type": "Product",
+							name: "Goodway Attestation & Apostille Services in Bangalore",
+							image: "https://www.goodwayattestation.com/images/logo.png",
+							description:
+								"All-in-One Document Attestation, Apostille & Other Services For Your Personal, Educational & Business Documents",
+							brand: {
+								"@type": "Thing",
+								name: "Goodway Attestation.Pvt.Ltd.",
 							},
-							"author": {
-								"@type": "Person",
-								"name": "Nagesh"
-							}
-						},
-						"aggregateRating": {
-							"@type": "AggregateRating",
-							"ratingValue": "4.9",
-							"bestRating": "5",
-							"worstRating": "1",
-							"ratingCount": "1271"
-						}
-					}`,
+							review: {
+								"@type": "Review",
+								reviewRating: {
+									"@type": "Rating",
+									ratingValue: "4.9",
+									bestRating: "5",
+								},
+								author: {
+									"@type": "Person",
+									name: "Nagesh",
+								},
+							},
+							aggregateRating: {
+								"@type": "AggregateRating",
+								ratingValue: "4.9",
+								bestRating: "5",
+								worstRating: "1",
+								ratingCount: "1271",
+							},
+						}),
 					}}
 				/>
 			</Head>
